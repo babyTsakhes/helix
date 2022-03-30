@@ -22,12 +22,20 @@ class Router{
     }
 
     public static function matchRoute($url){
-        foreach (self::$routes as $patterm=>$route){
-            if($pattern == $pattern){
-                self::$route = $pattern;
-                return true;
+        foreach (self::$routes as $pattern=>$route){
+            if($url == $pattern){
+            return true;
             }
         }
         return false;
+    }
+
+    public static function dispatch($url){
+        if(self::matchRoute($url)){
+
+        }else{
+            http_response_code(404);
+            include '404.html';
+        }
     }
 }
