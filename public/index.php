@@ -17,6 +17,8 @@ spl_autoload_register(function($class){
     }
 } );
 $query =  rtrim($_SERVER['QUERY_STRING'],'/');
+Router::add('^index.php&pages/?(?P<action>[a-z-]+)?$',['controller'=>'Posts']);
+//default routes
 Router::add('^index.php$',['controller'=>'Main','action'=>'index']);
 Router::add('^index.php&(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$');
 Router::dispatch($query);
