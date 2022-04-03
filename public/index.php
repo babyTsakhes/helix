@@ -2,15 +2,14 @@
 require '../vendor/core/Router.php';
 require '../vendor/libs/functions.php';
 $query =  rtrim($_SERVER['QUERY_STRING'],'/');
-debug($query);
-
-
-Router::add('posts/add',['controller'=>'Posts','action'=>'add']);
-//debug(Router::getRoutes());
+/* Router::add('posts/add',['controller'=>'Posts','action'=>'add']);
+Router::add('posts',['controller'=>'Posts','action'=>'add']);
+Router::add('posts',['controller'=>'Main','action'=>'index']); */
+Router::add('^index.php$',['controller'=>'Main','action'=>'index']);
+Router::add('^index.php&(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$');
 
 if(Router::matchRoute($query)){
-    echo 12312;
-    debug(Router::getRoute());
+  //  debug(Router::getRoute());
 }else{
     echo '404';
 }

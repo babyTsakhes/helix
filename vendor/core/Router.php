@@ -22,8 +22,11 @@ class Router{
     }
 
     public static function matchRoute($url){
-        foreach (self::$routes as $pattern=>$route){
-            if($url == $pattern){
+        $matches = [];
+        foreach (self::$routes as $pattern=> $route){
+            if(preg_match("#$pattern#i",$url,$matches)){
+               
+                debug($matches);
             return true;
             }
         }
