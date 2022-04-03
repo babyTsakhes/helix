@@ -41,12 +41,17 @@ class Router{
         return false;
     }
 
+    /**
+     * перенаправляет URL по правильному маршруту 
+     * @param string $url входящий URL
+     * @return void
+     */
     public static function dispatch($url){
         if(self::matchRoute($url)){
-            $controller = self::$route['controller'];
+            $controller = self::upperCamelCase(self::$route['controller']);
             if(class_exists($controller))
             {
-                echo "ok controller";
+                $controllerObj = new $controller;
             }
             else
             {
@@ -57,5 +62,18 @@ class Router{
             http_response_code(404);
             include '404.html';
         }
+    }
+
+    /**
+     * создает из URL название контроллера
+     * @param string $name
+     * @return string $name
+     */
+    protected static function upperCamelCase($name){
+        $name = str_replace('-',' ',$name);
+        $name = ucwords($name);
+        $name = str_replace(' ','',$name);
+        return $name;
+        
     }
 }
