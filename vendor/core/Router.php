@@ -85,10 +85,6 @@ class Router{
     }
 
     protected static function lowerCamelCase($actionName){
-        $actionName = str_replace('-',' ',$actionName);
-        $actionName = ucwords($actionName);
-        $actionName = str_replace(' ','',$actionName);
-        $actionName = lcfirst($actionName);
-        return $actionName;
+        return lcfirst(self::upperCamelCase($actionName));
     }
 }
