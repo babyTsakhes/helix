@@ -5,15 +5,21 @@ class PostsNew{
         echo "PostsNew::construct()";
     }
 
-    public function index(){
+    public function indexAction(){
         echo "PostsNew::index";
     }
 
-    public function test(){
+    public function testAction(){
         echo "PostsNew::test";
     }
 
-    public function testPage(){
+    public function testPageAction(){
         echo "PostsNew::testPage";
     }
+
+    public function before(){
+        echo "PostsNew::before";
+    }
+
+
 }
