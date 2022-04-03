@@ -32,9 +32,10 @@ class Router{
                     {
                         $route[$key] = $value;
                     }
+                    if(!isset($route['action']))
+                        $route['action'] = 'index';
                 }
                 self::$route = $route;
-                debug($route);
             return true;
             }
         }
@@ -43,7 +44,16 @@ class Router{
 
     public static function dispatch($url){
         if(self::matchRoute($url)){
-            echo "Ok";
+            $controller = self::$route['controller'];
+            if(class_exists($controller))
+            {
+                echo "ok controller";
+            }
+            else
+            {
+                echo "Контроллер <b>$controller</b> не найден";
+            }
+            $action = self::$route['action'];
         }else{
             http_response_code(404);
             include '404.html';
