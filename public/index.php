@@ -7,9 +7,9 @@ Router::add('posts',['controller'=>'Posts','action'=>'add']);
 Router::add('posts',['controller'=>'Main','action'=>'index']); */
 Router::add('^index.php$',['controller'=>'Main','action'=>'index']);
 Router::add('^index.php&(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)?$');
-
-if(Router::matchRoute($query)){
+Router::dispatch($query);
+/* if(Router::matchRoute($query)){
   //  debug(Router::getRoute());
 }else{
     echo '404';
-}
+} */
