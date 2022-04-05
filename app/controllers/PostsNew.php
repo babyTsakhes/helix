@@ -1,6 +1,9 @@
 <?
 namespace app\controllers;
-class PostsNew{
+
+use vendor\core\base\Controller;
+
+class PostsNew extends Controller{
 
     public function __construct(){
         echo "PostsNew::construct()";
