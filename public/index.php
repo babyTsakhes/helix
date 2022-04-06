@@ -5,6 +5,7 @@ define ('WWW',__DIR__);
 define ('CORE',dirname(__DIR__).'/vendor/core');
 define ('ROOT',dirname(__DIR__));
 define ('APP',dirname(__DIR__).'/app');
+define('LAYOUT','default');
 //require '../vendor/core/Router.php';
 require '../vendor/libs/functions.php';
 /* require '../app/controllers/Main.php';
@@ -24,6 +25,6 @@ $query =  rtrim($_SERVER['QUERY_STRING'],'/');
 Router::add('^page/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$',['controller'=>'Page']);
 Router::add('^page/(?P<alias>[a-z-]+)$',['controller'=>'Page','action'=>'view']);
 //default routes
-Router::add('^index.php$',['controller'=>'Main','action'=>'index']);
-Router::add('^index.php&(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)$');
+Router::add('^$',['controller'=>'Main','action'=>'index']);
+Router::add('^(?P<controller>[a-z-]+)/?(?P<action>[a-z-]+)$');
 Router::dispatch($query);

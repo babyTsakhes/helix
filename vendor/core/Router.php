@@ -48,6 +48,7 @@ class Router{
      * @return void
      */
     public static function dispatch($url){
+
         $url = self::removeQueryString($url);
         if(self::matchRoute($url)){
             $controller = "app\controllers\\".self::$route['controller'];
@@ -59,6 +60,7 @@ class Router{
                 if(method_exists($cObj,$action))
                 {
                     $cObj->$action();
+                    $cObj->getView();
                 }else{
                     echo "Метода<b>$action</b> у контроллера<b>$controller</b> нет";
                 }
