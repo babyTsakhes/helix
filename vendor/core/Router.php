@@ -34,6 +34,7 @@ class Router{
                     if(!isset($route['action']))
                         $route['action'] = 'index';
                 }
+                debug($route);
                 $route['controller'] = self::upperCamelCase($route['controller']); 
                 self::$route = $route;
             return true;
