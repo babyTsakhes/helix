@@ -1,8 +1,13 @@
 <?php
 namespace app\controllers;
 
-use vendor\core\base\Controller;
+class Main extends App{
+    public function indexAction(){
+        echo "Main::index";
+    }
 
-class Main extends Controller{
+    public function viewAction(){
+        echo "Main::view";
+    }
     
 }

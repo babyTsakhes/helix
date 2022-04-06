@@ -25,14 +25,14 @@ class View{
     }
 
     public function render(){
-        $file_view = APP . "/view/{$this->route['controller']}/{$this->view}.php";
+        $file_view = APP . "/views/{$this->route['controller']}/{$this->view}.php";
+        ob_start();
         if(is_file($file_view)){
-            echo 111;
-            debug($file_view);
             require $file_view;
         }else{
-            echo "Not found view <b>$file_view</b>";
+            echo "<br>Not found view <b>$file_view</b>";
         }
+        $content = ob_get_clean();
     }
 
 }
