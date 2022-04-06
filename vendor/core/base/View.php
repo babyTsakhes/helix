@@ -33,6 +33,14 @@ class View{
             echo "<br>Not found view <b>$file_view</b>";
         }
         $content = ob_get_clean();
+
+        $file_layout = APP."/views/layouts/{$this->layout}.php";
+        if(is_file($file_layout))
+        {
+            require $file_layout;
+        }else{
+            echo "<br>Not Found layout $file_layout";
+        }
     }
 
 }
