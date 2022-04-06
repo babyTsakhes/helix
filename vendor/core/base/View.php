@@ -20,7 +20,11 @@ class View{
 
     public function __construct($route,$layout = '',$view = ''){
         $this->route = $route;
+        if($layout === false){
+            $this->layout = false;
+        }else{
         $this->layout = $layout ?: LAYOUT;
+        }
         $this->view = $view;
     }
 
@@ -34,12 +38,14 @@ class View{
         }
         $content = ob_get_clean();
 
-        $file_layout = APP."/views/layouts/{$this->layout}.php";
-        if(is_file($file_layout))
-        {
-            require $file_layout;
-        }else{
-            echo "<br>Not Found layout $file_layout";
+        if($this->layout !== false){
+            $file_layout = APP."/views/layouts/{$this->layout}.php";
+            if(is_file($file_layout))
+            {
+                require $file_layout;
+            }else{
+                echo "<br>Not Found layout $file_layout";
+            }
         }
     }
 
