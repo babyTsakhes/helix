@@ -34,7 +34,6 @@ class Router{
                     if(!isset($route['action']))
                         $route['action'] = 'index';
                 }
-                debug($route);
                 $route['controller'] = self::upperCamelCase($route['controller']); 
                 self::$route = $route;
             return true;
@@ -49,6 +48,7 @@ class Router{
      * @return void
      */
     public static function dispatch($url){
+        $url = self::removeQueryString($url);
         if(self::matchRoute($url)){
             $controller = "app\controllers\\".self::$route['controller'];
             if(class_exists($controller))
@@ -86,7 +86,24 @@ class Router{
         
     }
 
+      /**
+     * создает из URL название актиона
+     * @param string $actionName
+     * @return string $actionName
+     */
     protected static function lowerCamelCase($actionName){
         return lcfirst(self::upperCamelCase($actionName));
     }
+
+    /**
+     * образает в URL GET-параметры
+     * @param string $url
+     * @return string $url
+     */
+    protected static function removeQueryString($url){
+        debug($url);
+        return $url;
+    }
+
+
 }

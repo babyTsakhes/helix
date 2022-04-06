@@ -9,7 +9,6 @@ class Posts extends Controller{
     }
 
     public function testAction(){
-        debug($this->route);
         echo "Posts::testAction";
     }
 }

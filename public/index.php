@@ -13,7 +13,6 @@ require '../app/controllers/PostsNew.php'; */
 
 spl_autoload_register(function($class){
     $file = ROOT.'\\'.str_replace("//",'\\',$class).'.php';
-    debug($file);
    // $file = APP."/controllers/$class.php";
     if(file_exists($file))
     {
