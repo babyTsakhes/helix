@@ -2,7 +2,7 @@
 namespace app\controllers;
 use vendor\core\base\Controller;
 
-class Page extends App{
+class PageController extends AppController{
 
     public function indexAction(){
         echo "Page::index";

@@ -1,12 +1,12 @@
 <?php
 namespace app\controllers;
 
-class Main extends App{
+class MainController extends AppController{
 
     public $layout = 'main';
 
     public function indexAction(){
-        $this->layout = "test";
+        $this->layout = "main";
         $name = "Ann";
         $greetings = "Hi,dear";
         $colors = ['white','green','yellow'];
