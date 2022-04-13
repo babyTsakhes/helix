@@ -8,10 +8,10 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>main</title>
+    <title<?=$title?></title>
   </head>
   <body>
-    <h1>main</h1>
+    <h1><?=$title?></h1>
     <p><?=$content?></p>
 
     <!-- Optional JavaScript; choose one of the two! -->

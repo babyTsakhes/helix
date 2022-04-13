@@ -30,7 +30,7 @@ class View{
 
     public function render($vars = []){
         if(is_array($vars)){
-            debug($vars);
+          //  debug($vars);
             extract($vars);
         }
          
