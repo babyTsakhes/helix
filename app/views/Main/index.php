@@ -10,3 +10,6 @@
             </table>
         <?endif?>
 </div>
+
+<?debug(vendor\core\Db::$countSql);?>
+<?debug(vendor\core\Db::$queries);?>
