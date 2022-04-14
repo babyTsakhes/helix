@@ -27,4 +27,8 @@ abstract class Model {
         return $this->pdo->query($sql,[$id]);
     }
 
+    public function findBySql($sql,$params = []){
+        return $this->pdo->query($sql,$params);
+    }
+
 }
