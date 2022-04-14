@@ -12,7 +12,7 @@ class MainController extends AppController{
         $posts = $model->findAll();
         $title  = "POSTS";
         $post = $model->findOne('ff');
-        $data = $model->findBySql("SELECT * FROM {$model->table} WHERE text LIKE ? ORDER BY id DESC LIMIT 2",['%dg%']);
+        $data = $model->findLike('dg','text');
 
         debug($data);
         $this->set(compact('posts','title'));
