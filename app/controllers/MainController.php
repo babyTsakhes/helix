@@ -11,7 +11,7 @@ class MainController extends AppController{
         $model = new Main;
         $posts = $model->findAll();
         $title  = "POSTS";
-        $post = $model->findOne(2);
+        $post = $model->findOne('ff');
         debug($post);
         $this->set(compact('posts','title'));
     
