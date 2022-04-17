@@ -1,17 +1,17 @@
 <?
 $config = [
     'components'=>[
-        'cache'=>'vendor\libs\Cache',
-        'test'=>'vendor\libs\Test'
+        'cache'=>'classes\Cache',
+        'test'=>'classes\Test'
     ],
     'settings'=>[
 
     ]
 ];
-
+echo 44;
 
 spl_autoload_register(function($class){
-    $file = ROOT.'\\'.str_replace("//",'\\',$class).'.php';
+    $file = str_replace("//",'\\',$class).'.php';
    // $file = APP."/controllers/$class.php";
     if(file_exists($file))
     {
@@ -41,5 +41,10 @@ class Registry{
         return self::$instance;
     }
 
-    public 
+    public function getList(){
+        var_dump(self::$objects);
+    }
 }
+
+$app = Registry::instance();
+$app->getList();
