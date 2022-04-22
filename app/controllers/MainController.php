@@ -12,11 +12,13 @@ class MainController extends AppController{
         $posts = \R::findAll('posts');
         $menu = $this->menu;
         $title  = "POSTS";
+        $this->setMeta('Главная страница111','mainpage ahahah ','ключевые слова aliexpress mvideo');
         $this->test();
+        $meta = $this->meta;
        
 
         //debug($categories);
-        $this->set(compact('posts','title','menu'));
+        $this->set(compact('posts','menu','meta'));
     
     }
 

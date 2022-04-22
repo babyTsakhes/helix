@@ -11,6 +11,7 @@ class PageController extends AppController{
     }
 
     public function viewAction(){
+        $this->layout = 'test';
         $title = "PAGE TITLE";
         $menu = $this->menu;
         $this->set(compact('posts','title','menu'));

@@ -1,3 +1,4 @@
+<?if(!empty($menu)):?>
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -11,6 +12,7 @@
     </ul>
   </div>
 </nav>
+<?endif;?>
 
 <div class="container>
 <?php if(!empty($posts)):?>
