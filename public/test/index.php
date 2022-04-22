@@ -2,8 +2,8 @@
 echo "Registry Pattern Project";
 $config = [
     'components'=>[
-        'cache'=>'vendor\libs\Cache',
-        'test'=>'vendor\libs\Test'
+        'cache'=>'classes\Cache',
+        'test'=>'classes\Test'
     ],
     'settings'=>[
 
@@ -11,7 +11,7 @@ $config = [
 ];
 
 spl_autoload_register(function($class){
-    $file = ROOT.'\\'.str_replace("//",'\\',$class).'.php';
+    $file = str_replace("//",'\\',$class).'.php';
    // $file = APP."/controllers/$class.php";
     if(file_exists($file))
     {
@@ -39,4 +39,14 @@ class Registry{
         return self::$instance;
     }
 
+    public function getList(){
+        echo '<pre>';
+        var_dump(self::$objects);
+        echo '</pre>';
+    }
+
 }
+
+$app = Registry::instance();
+
+$app->getList();
