@@ -3,7 +3,7 @@ namespace classes;
 
 class Test{
     
-    public function Go()
+    public function go()
     {
         echo 'GO!!!';
     }

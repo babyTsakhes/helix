@@ -43,10 +43,16 @@ class Registry{
      * данный методы - магический, он вызывается при 
      * вызове несуществующего метода
      */
-    public function __call($name, $arguments){
-        echo '</br>'.$name . " not exists";
-        var_dump($arguments);
+    public function __call($nameOfMethod,$argumentsOfMethod){
+        echo '</br>'.$nameOfMethod . " not exists";
+        var_dump($argumentsOfMethod);
 
+    }
+
+    public function __get($name){
+        if(is_object(self::$objects[$name])){
+            return self::$objects[$name];
+        }
     }
 
     public function __set($name,$value){
@@ -64,4 +70,4 @@ class Registry{
 $app = Registry::instance();
 
 //$app->getList();
-$app->test('kdkdk');
+$app->test->go();
