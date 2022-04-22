@@ -4,6 +4,7 @@ use vendor\core\Router;
 define ('WWW',__DIR__);
 define ('CORE',dirname(__DIR__).'/vendor/core');
 define ('ROOT',dirname(__DIR__));
+define ('LIBS',dirname(__DIR__).'/vendor/libs');
 define ('APP',dirname(__DIR__).'/app');
 define('LAYOUT','default');
 //require '../vendor/core/Router.php';

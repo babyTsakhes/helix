@@ -9,13 +9,14 @@ class MainController extends AppController{
 
     public function indexAction(){
         $model = new Main;
-        $posts = $model->findAll();
+        $posts = \R::findAll('posts');
+        $menu = $this->menu;
         $title  = "POSTS";
-        $post = $model->findOne('ff');
-        $data = $model->findLike('dg','text');
+        $this->test();
+       
 
-        debug($data);
-        $this->set(compact('posts','title'));
+        //debug($categories);
+        $this->set(compact('posts','title','menu'));
     
     }
 
