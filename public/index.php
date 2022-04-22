@@ -22,6 +22,8 @@ spl_autoload_register(function($class){
     }
 } );
 $query =  rtrim($_SERVER['QUERY_STRING'],'/');
+
+new \vendor\core\App;
 Router::add('^page/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$',['controller'=>'Page']);
 Router::add('^page/(?P<alias>[a-z-]+)$',['controller'=>'Page','action'=>'view']);
 Router::add('^test.php$',['controller'=>'','action'=>'index']);
