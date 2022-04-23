@@ -21,11 +21,18 @@ class Cache{
         $file = CACHE . '/' . md5($key) . '.txt';
         if(file_exists($file))
         {
-            $content['data'] = unserialize(file_get_contents($file));
+            $content = unserialize(file_get_contents($file));
+
             if(time() <= $content['end_time']){
                 return $content['data'];
             }
             unlink($file);
         }
+    }
+
+    public function delete($key){
+        $file = CACHE . '/' . md5($key) . '.txt';
+        if(file_exists($file))
+            unlink($file);
     }
 }

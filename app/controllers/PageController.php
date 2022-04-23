@@ -16,5 +16,4 @@ class PageController extends AppController{
         $menu = $this->menu;
         $this->set(compact('posts','title','menu'));
     }
-    
 }

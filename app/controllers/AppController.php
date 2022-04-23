@@ -12,7 +12,7 @@ class AppController extends Controller{
         $this->menu = \R::findAll('category');
         if($this->route['action'] == 'test')
         {
-            echo '<h1>TEST</h1>';
+          //  echo '<h1>TEST</h1>';
         }
     }
 
