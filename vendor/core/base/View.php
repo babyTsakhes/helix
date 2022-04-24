@@ -50,13 +50,11 @@ class View{
             if(is_file($file_layout))
             {
                 $content = $this->getScripts($content);
-            //    debug($this->scripts);
                 $scripts = [];
                 if(!empty($this->scripts[0]))
                    {
                     $scripts = $this->scripts[0];
                    }
-                   debug($scripts);
                 require $file_layout;
             }else{
                 echo "<br>Not Found layout $file_layout";
