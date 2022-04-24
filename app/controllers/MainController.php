@@ -5,7 +5,7 @@ use app\models\Main;
 use classes\Cache;
 use vendor\core\Registry;
 use vendor\core\App;
-
+use vendor\core\base\View;
 
 class MainController extends AppController{
 
@@ -21,8 +21,9 @@ class MainController extends AppController{
         }
         $menu = $this->menu;
         $title  = "POSTS";
-        $this->setMeta('Главная страница333','mainpage ahahah ','ключевые слова aliexpress mvideo');
-        $meta = $this->meta;
+      /*   $this->setMeta('Главная страница333','mainpage ahahah ','ключевые слова aliexpress mvideo');
+        $meta = $this->meta; */
+        View::getMeta('MAIN PAGE', 'main page of framework','framework');
         $this->set(compact('posts','menu','meta'));
     
     }
