@@ -18,6 +18,8 @@ class View{
      */
     public $layout;
 
+    public $scripts = [];
+
     public function __construct($route,$layout = '',$view = ''){
         $this->route = $route;
         if($layout === false){
@@ -47,11 +49,28 @@ class View{
             $file_layout = APP."/views/layouts/{$this->layout}.php";
             if(is_file($file_layout))
             {
+                $content = $this->getScripts($content);
+            //    debug($this->scripts);
+                $scripts = [];
+                if(!empty($this->scripts[0]))
+                   {
+                    $scripts = $this->scripts[0];
+                   }
+                   debug($scripts);
                 require $file_layout;
             }else{
                 echo "<br>Not Found layout $file_layout";
             }
         }
+    }
+
+    protected function getScripts($content){
+        $pattern = "#<script.*?>.*?</script>#si";
+        preg_match_all($pattern,$content,$this->scripts);
+        if(!empty($this->scripts)){
+            $content = preg_replace($pattern,'',$content);
+        }
+        return $content;
     }
 
 }

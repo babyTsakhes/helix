@@ -32,8 +32,11 @@ class MainController extends AppController{
     }
 
     public function testAction(){
-        echo 111;die;
-        echo "GGGGGTEST";
+        if($this->isAjax())
+        {
+            echo 111;die;
+        }
+        echo 222;
     }
     
 }
