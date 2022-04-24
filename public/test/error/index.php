@@ -40,6 +40,15 @@ class ErrorHandler{
         die;
     }
 }
+new ErrorHandler();
 //$test = 99;
-new ErrorHandler;
-echo $test;
+/* 
+echo $test; */
+
+try{
+    if(empty($test)){
+        throw new Exception("Oops, exception");
+    }
+}catch(Exception $e){
+    var_dump($e);
+}
