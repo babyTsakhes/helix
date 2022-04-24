@@ -2,6 +2,13 @@
 
 define("DEBUG", 1);//1 - это режим разработки
 
+class NotFoundException extends Exception{
+    public function __construct($message = '', $code = 404)
+    {
+        parent::__construct($message,$code);
+    }
+}
+
 class ErrorHandler{
 
     public function __construct(){
@@ -12,10 +19,11 @@ class ErrorHandler{
         }
         set_error_handler([$this, 'errorHandler']);
         register_shutdown_function([$this, 'fatalErrorHandler']);
+        set_exception_handler([$this,'exceptionHandler']);
     }
 
     public function errorHandler($errno,$errstr,$errfile,$errline){
-     //   var_dump($errno,$errstr,$errfile,$errline);
+        error_log("[" . date("Y-m-d H:i:s"). "]  Текст ошибки: {$errstr} | Файл: {$errfile} | Строка: {$errline}\n========================================\n",3,__DIR__ . '/errors.log');
         $this->displayError($errno,$errstr,$errfile,$errline);
         return true;//отключаем обработку ошибок от php
     }
@@ -23,11 +31,19 @@ class ErrorHandler{
     public function fatalErrorHandler(){
         $error = error_get_last();
         if(!empty($error) && $error['type'] & (E_ERROR | E_PARSE | E_COMPILE_ERROR | E_CORE_ERROR)){
+            error_log("[" . date("Y-m-d H:i:s"). "]  Текст ошибки: {$error['message']} | Файл: {$error['file']} | Строка: {$error['line']}\n========================================\n",3,__DIR__ . '/errors.log');
             ob_end_clean();
             $this->displayError($error['type'],$error['message'],$error['file'],$error['line']);
         }else{
             ob_end_flush();
         }
+    }
+
+    public function exceptionHandler(Exception $e){
+        error_log("[" . date("Y-m-d H:i:s"). "]  Текст ошибки: {$e->getMessage()} | Файл: {$e->getFile()} | Строка: {$e->getLine()}\n========================================\n",3,__DIR__ . '/errors.log');
+      
+        $this->displayError('Exception',$e->getMessage(),$e->getFile(),$e->getLine(),$e->getCode());
+        //var_dump($e);
     }
 
     protected function displayError($errno,$errstr,$errfile,$errline,$response = 500){
@@ -42,13 +58,14 @@ class ErrorHandler{
 }
 new ErrorHandler();
 //$test = 99;
-/* 
-echo $test; */
+ 
+echo $test; 
 
-try{
+/* try{
     if(empty($test)){
         throw new Exception("Oops, exception");
     }
 }catch(Exception $e){
     var_dump($e);
-}
+} */  
+//throw new NotFoundException("Not found page",404);
