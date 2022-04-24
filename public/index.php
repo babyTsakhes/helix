@@ -1,5 +1,5 @@
 <?php
-error_reporting(-1);
+//error_reporting(-1);
 use vendor\core\Router;
 define ('WWW',__DIR__);
 define ('CORE',dirname(__DIR__).'/vendor/core');
@@ -7,7 +7,9 @@ define ('ROOT',dirname(__DIR__));
 define ('LIBS',dirname(__DIR__).'/vendor/libs');
 define ('APP',dirname(__DIR__).'/app');
 define ('CACHE',dirname(__DIR__).'/tmp/cache');
+define ('ERROR',dirname(__DIR__).'/tmp/errors.log');
 define('LAYOUT','default');
+define("DEBUG", 1);//1 - это режим разработки
 //require '../vendor/core/Router.php';
 require '../vendor/libs/functions.php';
 /* require '../app/controllers/Main.php';

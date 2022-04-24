@@ -56,10 +56,10 @@ class ErrorHandler{
         die;
     }
 }
-new ErrorHandler();
+//new ErrorHandler();
 //$test = 99;
  
-echo $test; 
+//echo $test; 
 
 /* try{
     if(empty($test)){

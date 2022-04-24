@@ -1,0 +1,19 @@
+[2022-04-24 22:16:35]  Текст ошибки: syntax error, unexpected '$posts' (T_VARIABLE) | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 16
+========================================
+[2022-04-24 22:17:32]  Текст ошибки: syntax error, unexpected '$posts' (T_VARIABLE) | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 16
+========================================
+[2022-04-24 22:20:54]  Текст ошибки: syntax error, unexpected '$posts' (T_VARIABLE) | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 16
+========================================
+[2022-04-24 22:22:12]  Текст ошибки: syntax error, unexpected '$posts' (T_VARIABLE) | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 16
+========================================
+[2022-04-24 22:23:04]  Текст ошибки: Uncaught Error: Call to undefined function D:\OpenServer\domains\framework\vendor\core\ErrorHandler.php() in D:\OpenServer\domains\framework\vendor\core\ErrorHandler.php:39
+Stack trace:
+#0 D:\OpenServer\domains\framework\vendor\core\ErrorHandler.php(44): vendor\core\ErrorHandler->logErrors('Call to undefin...', 'D:\\OpenServer\\d...', 39)
+#1 [internal function]: vendor\core\ErrorHandler->exceptionHandler(Object(Error))
+#2 {main}
+  thrown | Файл: D:\OpenServer\domains\framework\vendor\core\ErrorHandler.php | Строка: 39
+========================================
+[2022-04-24 22:24:21]  Текст ошибки: Undefined variable: rrr | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 16
+========================================
+[2022-04-24 22:27:22]  Текст ошибки: Undefined variable: rrr | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 16
+========================================

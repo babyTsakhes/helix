@@ -16,7 +16,7 @@ class ErrorHandler{
     }
 
     public function errorHandler($errno,$errstr,$errfile,$errline){
-        $this->logErrors($errstr,$errfile,$errline);
+      //  $this->logErrors($errstr,$errfile,$errline);
         error_log("[" . date("Y-m-d H:i:s"). "]  Текст ошибки: {$errstr} | Файл: {$errfile} | Строка: {$errline}\n========================================\n",3, ERROR);
         $this->displayError($errno,$errstr,$errfile,$errline);
         return true;//отключаем обработку ошибок от php
@@ -25,7 +25,7 @@ class ErrorHandler{
     public function fatalErrorHandler(){
         $error = error_get_last();
         if(!empty($error) && $error['type'] & (E_ERROR | E_PARSE | E_COMPILE_ERROR | E_CORE_ERROR)){
-            $this->logErrors($error['message'],$error['file'],$error['line']);
+        //    $this->logErrors($error['message'],$error['file'],$error['line']);
             error_log("[" . date("Y-m-d H:i:s"). "]  Текст ошибки: {$error['message']} | Файл: {$error['file']} | Строка: {$error['line']}\n========================================\n",3,ERROR);
             ob_end_clean();
             $this->displayError($error['type'],$error['message'],$error['file'],$error['line']);
@@ -45,11 +45,9 @@ class ErrorHandler{
     }
 
     public function exceptionHandler($e){
-        $this->logErrors($e->getMessage(),$e->getFile(),$e->getLine());
+      //  $this->logErrors($e->getMessage(),$e->getFile(),$e->getLine());
         error_log("[" . date("Y-m-d H:i:s"). "]  Текст ошибки: {$e->getMessage()} | Файл: {$e->getFile()} | Строка: {$e->getLine()}\n========================================\n",3,ERROR);
-      
         $this->displayError('Exception',$e->getMessage(),$e->getFile(),$e->getLine(),$e->getCode());
-        //var_dump($e);
     }
 
     protected function displayError($errno,$errstr,$errfile,$errline,$response = 500){

@@ -1,0 +1,2 @@
+[2022-04-24 22:14:27]  Текст ошибки: syntax error, unexpected '$posts' (T_VARIABLE) | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 16
+========================================
