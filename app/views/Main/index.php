@@ -1,6 +1,6 @@
 
 <main role="main">
-
+<div id = "answer">hgf</div>
 <section class="jumbotron text-center">
   <div class="container">
     <h1 class="jumbotron-heading">Album example</h1>
@@ -41,7 +41,6 @@
 </div>
 
 </main>
-<script src='../public/js/test.js'></script>
 <script>
      $(function(){
       $('#send').click(function(){
@@ -50,10 +49,11 @@
           type:'post',
           data:{'id':2},
           success:function(res){
-            console.log(res);
+             var data = JSON.parse(res);
+            $('#answer').html('<p> Response: ' + data.answer + ' Code: '+ data.code +'</p>');
           },
           error:function(){
-            alert('Error');
+            console.log('Error');
           }
         });
       });

@@ -4,7 +4,7 @@ namespace vendor\core;
 
 class ErrorHandler{
     public function __construct(){
-        echo "ErrorHandler";
+      //  echo "ErrorHandler";
         if(DEBUG){
             error_reporting(-1);
         }else{
