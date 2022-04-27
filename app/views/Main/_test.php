@@ -1,4 +1,4 @@
-<?=__FILE__?>
+
 <h1><?= $post['title']?></h1>
 <div>
     <?=$post['text']?>

@@ -17,3 +17,75 @@ Stack trace:
 ========================================
 [2022-04-24 22:27:22]  Текст ошибки: Undefined variable: rrr | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 16
 ========================================
+[2022-04-27 15:56:21]  Текст ошибки: Undefined variable: jdhf | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 15:57:13]  Текст ошибки: Undefined variable: jdhf | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 15:57:14]  Текст ошибки: Undefined variable: jdhf | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 15:57:16]  Текст ошибки: Undefined variable: jdhf | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 15:57:35]  Текст ошибки: Undefined variable: jdhf | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 15:57:49]  Текст ошибки: Undefined variable: jdhf | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 15:58:23]  Текст ошибки: Undefined variable: jdhf | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 15:58:24]  Текст ошибки: Undefined variable: jdhf | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 15:58:24]  Текст ошибки: Undefined variable: jdhf | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 15:58:24]  Текст ошибки: Undefined variable: jdhf | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 15:58:54]  Текст ошибки: Undefined variable: jdhf | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 15:59:08]  Текст ошибки: Undefined variable: jdhf | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 15:59:09]  Текст ошибки: Undefined variable: jdhf | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 15:59:38]  Текст ошибки: Undefined variable: jdhf | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 15:59:38]  Текст ошибки: Undefined variable: jdhf | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 15:59:38]  Текст ошибки: Undefined variable: jdhf | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 15:59:39]  Текст ошибки: Undefined variable: jdhf | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 15:59:39]  Текст ошибки: Undefined variable: jdhf | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 16:08:59]  Текст ошибки: Undefined variable: jdhf | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 16:09:12]  Текст ошибки: Undefined variable: jdhf | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 16:18:38]  Текст ошибки: syntax error, unexpected 'if' (T_IF) | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 18
+========================================
+[2022-04-27 16:19:11]  Текст ошибки: Undefined variable: r | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 16:19:37]  Текст ошибки: Undefined variable: r | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 16:19:52]  Текст ошибки: Undefined variable: r | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 16:20:17]  Текст ошибки: Undefined variable: r | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 16:20:17]  Текст ошибки: Call to undefined function app\controllers\test() | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 18
+========================================
+[2022-04-27 16:21:15]  Текст ошибки: Undefined variable: r | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 16:21:15]  Текст ошибки: Call to undefined function app\controllers\test() | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 18
+========================================
+[2022-04-27 16:21:15]  Текст ошибки: Undefined variable: r | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 16:21:15]  Текст ошибки: Call to undefined function app\controllers\test() | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 18
+========================================
+[2022-04-27 16:21:16]  Текст ошибки: Undefined variable: r | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 16:21:16]  Текст ошибки: Call to undefined function app\controllers\test() | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 18
+========================================
+[2022-04-27 16:21:17]  Текст ошибки: Undefined variable: r | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 16:21:17]  Текст ошибки: Call to undefined function app\controllers\test() | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 18
+========================================
+[2022-04-27 16:21:43]  Текст ошибки: Undefined variable: r | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 16:21:43]  Текст ошибки: Call to undefined function app\controllers\test() | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 18
+========================================

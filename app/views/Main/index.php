@@ -1,6 +1,6 @@
 
 <main role="main">
-<div id = "answer">hgf</div>
+<div id = "answer"></div>
 <section class="jumbotron text-center">
   <div class="container">
     <h1 class="jumbotron-heading">Album example</h1>
@@ -49,8 +49,9 @@
           type:'post',
           data:{'id':2},
           success:function(res){
-             var data = JSON.parse(res);
-            $('#answer').html('<p> Response: ' + data.answer + ' Code: '+ data.code +'</p>');
+            /*  var data = JSON.parse(res);
+            $('#answer').html('<p> Response: ' + data.answer + ' Code: '+ data.code +'</p>'); */
+            $('#answer').html(res);
           },
           error:function(){
             console.log('Error');
