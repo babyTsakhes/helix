@@ -31,7 +31,9 @@ Router::add('^page/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$',['controller'=>'Page
 Router::add('^page/(?P<alias>[a-z-]+)$',['controller'=>'Page','action'=>'view']);
 Router::add('^test.php$',['controller'=>'','action'=>'index']);
 //default routes
-Router::add('^$',['controller'=>'Main','action'=>'index']);
+Router::add('^$',['controller'=>'User','action'=>'index','prefix' => 'admin']);
+Router::add('^admin$',['controller'=>'Main','action'=>'index']);//admin
+Router::add('^admin/?(?P<controller>[a-z-]+)/(?P<action>[a-z-]+)$',['prefix' => 'admin']);
 Router::add('^(?P<controller>[a-z-]+)$');
 Router::add('^(?P<controller>[a-z-]+)/(?P<action>[a-z-]+)$');
 Router::dispatch($query);
