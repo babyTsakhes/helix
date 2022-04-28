@@ -1,6 +1,7 @@
 <? new \vendor\widgets\menu\Menu([
-  'tpl' => WWW . '/menu/my_menu.php',
-  'container' => 'ul',
+  'class' => 'hhh',
+ // 'tpl' => WWW . '/menu/my_menu.php',
+  'container' => 'select',
   'table' => 'categories',
   'cache'=> 60
 ]);?>
