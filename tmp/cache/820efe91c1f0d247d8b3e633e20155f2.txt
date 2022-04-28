@@ -1,0 +1,29 @@
+a:2:{s:4:"data";s:1556:"<li class="test" style="background-color:coral; color:brown">
+    <a href="?id=1">Техника</a>
+            <ul class="test">
+            <li class="test" style="background-color:coral; color:brown">
+    <a href="?id=9">ноутбук Ирбис 16 гб</a>
+    </li><li class="test" style="background-color:coral; color:brown">
+    <a href="?id=10">Ноутбук Lenovo 32Гб</a>
+    </li><li class="test" style="background-color:coral; color:brown">
+    <a href="?id=11">Телевизор китайский плазма</a>
+    </li>        </ul>
+        </li><li class="test" style="background-color:coral; color:brown">
+    <a href="?id=2">Посуда</a>
+            <ul class="test">
+            <li class="test" style="background-color:coral; color:brown">
+    <a href="?id=3">кружка</a>
+    </li><li class="test" style="background-color:coral; color:brown">
+    <a href="?id=4">тарелка</a>
+    </li><li class="test" style="background-color:coral; color:brown">
+    <a href="?id=5">сковорода</a>
+    </li><li class="test" style="background-color:coral; color:brown">
+    <a href="?id=6">кастрюля</a>
+            <ul class="test">
+            <li class="test" style="background-color:coral; color:brown">
+    <a href="?id=7">кастрюля для борща 5л</a>
+    </li><li class="test" style="background-color:coral; color:brown">
+    <a href="?id=8">кастрюля для молочного супа 1л</a>
+    </li>        </ul>
+        </li>        </ul>
+        </li>";s:8:"end_time";i:1651156645;}

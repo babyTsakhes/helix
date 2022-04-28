@@ -3,7 +3,16 @@
  // 'tpl' => WWW . '/menu/my_menu.php',
   'container' => 'select',
   'table' => 'categories',
-  'cache'=> 60
+  'cache'=> 60,
+  'cacheKey'=>'menu_select'
+]);?>
+<? new \vendor\widgets\menu\Menu([
+  'class' => 'hhh',
+  'tpl' => WWW . '/menu/my_menu.php',
+  'container' => 'ul',
+  'table' => 'categories',
+  'cache'=> 60,
+  'cacheKey'=>'my_menu'
 ]);?>
 <main role="main">
 <div id = "answer"></div>

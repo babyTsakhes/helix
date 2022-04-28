@@ -15,6 +15,7 @@ class Menu
     protected $container = 'ul';
     protected $table = 'categories';
     protected $cache = 3600;
+    protected $cacheKey = 'fw_menu' ;
 
     public function __construct($options = [])
     {
@@ -42,12 +43,12 @@ class Menu
     protected function run()
     {
         $cache = new Cache();
-        $this->menuHtml = $cache->get('fw_menu');
+        $this->menuHtml = $cache->get($this->cacheKey);
         if (!$this->menuHtml) {
             $this->data = \R::getAssoc("SELECT * FROM {$this->table}");
             $this->tree = $this->getTree();
             $this->menuHtml = $this->getMenuHtml($this->tree);
-            $cache->set('fw_menu',$this->menuHtml,$this->cache);
+            $cache->set($this->cacheKey,$this->menuHtml,$this->cache);
         }
 
         $this->output();
