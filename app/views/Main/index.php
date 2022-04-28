@@ -3,7 +3,7 @@
  // 'tpl' => WWW . '/menu/my_menu.php',
   'container' => 'select',
   'table' => 'categories',
-  'cache'=> 60,
+  'cache'=> 600000,
   'cacheKey'=>'menu_select'
 ]);?>
 <? new \vendor\widgets\menu\Menu([
@@ -11,7 +11,7 @@
   'tpl' => WWW . '/menu/my_menu.php',
   'container' => 'ul',
   'table' => 'categories',
-  'cache'=> 60,
+  'cache'=> 6000000,
   'cacheKey'=>'my_menu'
 ]);?>
 <main role="main">
