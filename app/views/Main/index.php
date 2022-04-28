@@ -1,4 +1,9 @@
-<? new \vendor\widgets\menu\Menu;?>
+<? new \vendor\widgets\menu\Menu([
+  'tpl' => WWW . '/menu/my_menu.php',
+  'container' => 'ul',
+  'table' => 'categories',
+  'cache'=> 60
+]);?>
 <main role="main">
 <div id = "answer"></div>
 <section class="jumbotron text-center">
