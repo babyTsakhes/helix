@@ -1,0 +1,23 @@
+a:2:{s:4:"data";s:767:"<option value="1">
+    Техника</option>
+    <option value="9">
+    &nbsp-ноутбук Ирбис 16 гб</option>
+<option value="10">
+    &nbsp-Ноутбук Lenovo 32Гб</option>
+<option value="11">
+    &nbsp-Телевизор китайский плазма</option>
+    <option value="2">
+    Посуда</option>
+    <option value="3">
+    &nbsp-кружка</option>
+<option value="4">
+    &nbsp-тарелка</option>
+<option value="5">
+    &nbsp-сковорода</option>
+<option value="6">
+    &nbsp-кастрюля</option>
+    <option value="7">
+    &nbsp&nbsp--кастрюля для борща 5л</option>
+<option value="8">
+    &nbsp&nbsp--кастрюля для молочного супа 1л</option>
+        ";s:8:"end_time";i:1651156136;}
