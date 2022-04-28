@@ -1,5 +1,8 @@
 <?php
 namespace vendor\core;
+
+use Exception;
+
 class Router{
 
     /* public function __construct(){
@@ -64,16 +67,17 @@ class Router{
                     $cObj->$action();
                     $cObj->getView();
                 }else{
-                    echo "Метода<b>$action</b> у контроллера<b>$controller</b> нет";
+                    throw new \Exception("Метода<b>$action</b> у контроллера<b>$controller</b> нет",404);
                 }
             }
             else
             {
-                echo "Контроллер <b>$controller</b> не найден";
+                throw new \Exception("Контроллер <b>$controller</b> не найден",404);
             }
         }else{
-            http_response_code(404);
-            include '404.html';
+            /* http_response_code(404);
+            include '404.html'; */
+            throw new \Exception("Страница не найдена",404);
         }
     }
 
