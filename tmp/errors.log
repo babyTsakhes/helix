@@ -89,3 +89,7 @@ Stack trace:
 ========================================
 [2022-04-27 16:21:43]  Текст ошибки: Call to undefined function app\controllers\test() | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 18
 ========================================
+[2022-04-27 17:12:32]  Текст ошибки: Undefined variable: r | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 17
+========================================
+[2022-04-27 17:12:32]  Текст ошибки: Call to undefined function app\controllers\test() | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 18
+========================================
