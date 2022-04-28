@@ -1,4 +1,4 @@
-
+<? new \vendor\widgets\menu\Menu;?>
 <main role="main">
 <div id = "answer"></div>
 <section class="jumbotron text-center">

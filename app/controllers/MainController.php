@@ -14,8 +14,7 @@ class MainController extends AppController{
     public function indexAction(){
         $model = new Main;
         $posts = App::$app->cache->get('posts');
-        echo $r;
-        echo test();
+     
         if(!$posts)
         {
             $posts = \R::findAll('posts');
