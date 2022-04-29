@@ -149,3 +149,15 @@ Stack trace:
 ========================================
 [2022-04-29 09:16:45]  Текст ошибки: <br>Not found view <b>D:\OpenServer\domains\framework/app/views/admin\Test/index.php</b> | Файл: D:\OpenServer\domains\framework\vendor\core\base\View.php | Строка: 46
 ========================================
+[2022-04-29 09:17:50]  Текст ошибки: <br>Not found view <b>D:\OpenServer\domains\framework/app/views/admin\Test/index.php</b> | Файл: D:\OpenServer\domains\framework\vendor\core\base\View.php | Строка: 46
+========================================
+[2022-04-29 09:17:51]  Текст ошибки: <br>Not found view <b>D:\OpenServer\domains\framework/app/views/admin\Test/index.php</b> | Файл: D:\OpenServer\domains\framework\vendor\core\base\View.php | Строка: 46
+========================================
+[2022-04-29 09:17:55]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OpenServer\domains\framework\vendor\core\Router.php | Строка: 83
+========================================
+[2022-04-29 09:18:45]  Текст ошибки: <br>Not found view <b>D:\OpenServer\domains\framework/app/views/admin\User/index.php</b> | Файл: D:\OpenServer\domains\framework\vendor\core\base\View.php | Строка: 46
+========================================
+[2022-04-29 09:38:16]  Текст ошибки: syntax error, unexpected 'Access' (T_STRING), expecting ',' or ')' | Файл: D:\OpenServer\domains\framework\app\controllers\admin\AppController.php | Строка: 13
+========================================
+[2022-04-29 09:38:29]  Текст ошибки: syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) | Файл: D:\OpenServer\domains\framework\app\controllers\admin\AppController.php | Строка: 16
+========================================
