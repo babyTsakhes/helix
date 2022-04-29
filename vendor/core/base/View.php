@@ -38,12 +38,12 @@ class View{
             extract($vars);
         }
          
-        $file_view = APP . "/views/{$this->route['controller']}/{$this->view}.php";
+        $file_view = APP . "/views/{$this->route['prefix']}{$this->route['controller']}/{$this->view}.php";
         ob_start();
         if(is_file($file_view)){
             require $file_view;
         }else{
-            echo "<br>Not found view <b>$file_view</b>";
+            throw new \Exception("<br>Not found view <b>$file_view</b>",404);
         }
         $content = ob_get_clean();
 
@@ -59,7 +59,7 @@ class View{
                    }
                 require $file_layout;
             }else{
-                echo "<br>Not Found layout $file_layout";
+                throw new \Exception( "<br>Not Found layout $file_layout",404);
             }
         }
     }

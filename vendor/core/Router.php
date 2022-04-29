@@ -28,6 +28,7 @@ class Router{
         $matches = [];
         foreach (self::$routes as $pattern=> $route){
             if(preg_match("#$pattern#i",$url,$matches)){
+               
                 foreach($matches as $key => $value)
                 {
                     if(is_string($key))
@@ -36,6 +37,13 @@ class Router{
                     }
                     if(!isset($route['action']))
                         $route['action'] = 'index';
+                    //prefix for admin controller
+                    
+                }
+                if(!isset($route['prefix'])){
+                    $route['prefix'] = '';
+                }else{
+                    $route['prefix'] .= '\\';
                 }
                 $route['controller'] = self::upperCamelCase($route['controller']); 
                 self::$route = $route;
@@ -56,7 +64,7 @@ class Router{
         
         if(self::matchRoute($url)){
             
-            $controller = "app\controllers\\".self::$route['controller']."Controller";
+            $controller = "app\controllers\\". self::$route['prefix'] .self::$route['controller']."Controller";
             if(class_exists($controller))
             {
                 $cObj = new $controller(self::$route);
@@ -125,3 +133,5 @@ class Router{
 
 
 }
+
+//https://youtu.be/jvQXSeH2p1g?list=PLD-piGJ3Dtl1gX1wh22vBeeg6gMP1VlnW&t=824
