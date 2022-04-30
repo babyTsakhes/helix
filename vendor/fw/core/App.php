@@ -1,7 +1,7 @@
 <?
-namespace vendor\core;
+namespace vendor\fw\core;
 
-use vendor\core\Registry;
+use vendor\fw\core\Registry;
 use vendor\core\ErrorHandler;
 
 class App{

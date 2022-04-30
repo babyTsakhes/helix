@@ -3,8 +3,8 @@ namespace app\controllers;
 
 use app\models\Main;
 use classes\Cache;
-use vendor\core\Registry;
-use vendor\core\App;
+use vendor\fw\core\Registry;
+use vendor\fw\core\App;
 use vendor\core\base\View;
 
 class MainController extends AppController{
