@@ -1,6 +1,6 @@
 <?
 namespace app\controllers;
-use vendor\core\base\Controller;
+use fw\core\base\Controller;
 
 class PageController extends AppController{
 

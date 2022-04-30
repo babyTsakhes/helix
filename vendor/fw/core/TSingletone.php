@@ -1,5 +1,5 @@
 <?
-namespace vendor\core;
+namespace fw\core;
 
 trait TSingletone{
     protected static $instance;

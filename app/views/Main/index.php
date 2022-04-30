@@ -1,4 +1,4 @@
-<? new \vendor\widgets\menu\Menu([
+<? new \fw\widgets\menu\Menu([
   'class' => 'hhh',
  // 'tpl' => WWW . '/menu/my_menu.php',
   'container' => 'select',
@@ -6,7 +6,7 @@
   'cache'=> 600000,
   'cacheKey'=>'menu_select'
 ]);?>
-<? new \vendor\widgets\menu\Menu([
+<? new \fw\widgets\menu\Menu([
   'class' => 'hhh',
   'tpl' => WWW . '/menu/my_menu.php',
   'container' => 'ul',

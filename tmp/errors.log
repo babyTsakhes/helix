@@ -161,3 +161,5 @@ Stack trace:
 ========================================
 [2022-04-29 09:38:29]  Текст ошибки: syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) | Файл: D:\OpenServer\domains\framework\app\controllers\admin\AppController.php | Строка: 16
 ========================================
+[2022-04-30 22:28:16]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================

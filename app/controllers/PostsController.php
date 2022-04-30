@@ -1,7 +1,7 @@
 <?
 namespace app\controllers;
 
-use vendor\core\base\Controller;
+use fw\core\base\Controller;
 
 class PostsController extends AppController{
     public function indexAction(){

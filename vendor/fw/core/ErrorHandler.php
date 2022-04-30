@@ -1,6 +1,6 @@
 <?
 
-namespace vendor\core;
+namespace fw\core;
 
 class ErrorHandler{
     public function __construct(){
@@ -39,7 +39,7 @@ class ErrorHandler{
 
     /**TO-DO
      * почему возникает 
-     * Uncaught Error: Call to undefined function D:\OpenServer\domains\framework\vendor\core\ErrorHandler.php() in D:\OpenServer\domains\framework\vendor\core\ErrorHandler.php:41 Stack trace: #0 D:\OpenServer\domains\framework\vendor\core\ErrorHandler.php(46): vendor\core\ErrorHandler->logErrors('Call to undefin...', 'D:\\OpenServer\\d...', 41) #1 [internal function]: vendor\core\ErrorHandler->exceptionHandler(Object(Error)) #2 {main} thrown in D:\OpenServer\domains\framework\vendor\core\ErrorHandler.php on line 41
+     * Uncaught Error: Call to undefined function D:\OpenServer\domains\framework\fw\core\ErrorHandler.php() in D:\OpenServer\domains\framework\fw\core\ErrorHandler.php:41 Stack trace: #0 D:\OpenServer\domains\framework\fw\core\ErrorHandler.php(46): fw\core\ErrorHandler->logErrors('Call to undefin...', 'D:\\OpenServer\\d...', 41) #1 [internal function]: fw\core\ErrorHandler->exceptionHandler(Object(Error)) #2 {main} thrown in D:\OpenServer\domains\framework\fw\core\ErrorHandler.php on line 41
      * при вызове функции logErrors в других методах данного класса
      */
     protected function logErrors($message = '',$file = '', $line = ''){

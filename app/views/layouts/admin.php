@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?
 
-use vendor\core\base\View;
+use fw\core\base\View;
 
  View::getMeta();?>
 

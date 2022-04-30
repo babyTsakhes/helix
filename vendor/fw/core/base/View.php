@@ -1,6 +1,6 @@
 <?
 
-namespace vendor\core\base;
+namespace fw\core\base;
 class View{
     /**
      * текущий маршрут и параметры(controller,action,alias)

@@ -1,6 +1,6 @@
 <?php
 //error_reporting(-1);
-use vendor\core\Router;
+use fw\core\Router;
 define ('WWW',__DIR__);
 define ('CORE',dirname(__DIR__).'/vendor/fw/core');
 define ('ROOT',dirname(__DIR__));
@@ -12,11 +12,12 @@ define('LAYOUT','default');
 define("DEBUG", 1);//1 - это режим разработки
 //require '../vendor/core/Router.php';
 require '../vendor/fw/libs/functions.php';
+require __DIR__ . '/../vendor/autoload.php';
 /* require '../app/controllers/Main.php';
 require '../app/controllers/Posts.php';
 require '../app/controllers/PostsNew.php'; */
 
-/* spl_autoload_register(function($class){
+/* spl_autoload_register(function($class){  
     $file = ROOT.'\\'.str_replace("//",'\\',$class).'.php';
    // $file = APP."/controllers/$class.php";
     if(file_exists($file))
@@ -26,7 +27,7 @@ require '../app/controllers/PostsNew.php'; */
 } ); */
 $query =  rtrim($_SERVER['QUERY_STRING'],'/');
 
-new \vendor\fw\core\App;
+new \fw\core\App;
 Router::add('^page/(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$',['controller'=>'Page']);
 Router::add('^page/(?P<alias>[a-z-]+)$',['controller'=>'Page','action'=>'view']);
 Router::add('^test.php$',['controller'=>'','action'=>'index']);

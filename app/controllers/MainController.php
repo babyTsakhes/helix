@@ -3,9 +3,9 @@ namespace app\controllers;
 
 use app\models\Main;
 use classes\Cache;
-use vendor\fw\core\Registry;
-use vendor\fw\core\App;
-use vendor\core\base\View;
+use fw\core\Registry;
+use fw\core\App;
+use fw\core\base\View;
 
 class MainController extends AppController{
 

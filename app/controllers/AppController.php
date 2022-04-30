@@ -1,6 +1,6 @@
 <?
 namespace app\controllers;
-use vendor\fw\core\base\Controller;
+use fw\core\base\Controller;
 class AppController extends Controller{
 
     public $menu;
