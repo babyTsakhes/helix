@@ -6,12 +6,21 @@ use classes\Cache;
 use fw\core\Registry;
 use fw\core\App;
 use fw\core\base\View;
+use Monolog\Handler\StreamHandler;
+use Monolog\Logger;
 
 class MainController extends AppController{
 
     public $layout = 'default';
 
     public function indexAction(){
+
+        $log = new Logger('name');
+        $log->pushHandler(new StreamHandler(ROOT . '/tmp/your.log'),Logger::WARNING);
+        $log->warning('GGG');
+        $log->error("HHH");
+
+
         $model = new Main;
         $posts = App::$app->cache->get('posts');
      
