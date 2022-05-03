@@ -169,3 +169,5 @@ Stack trace:
 ========================================
 [2022-05-03 16:19:46]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
 ========================================
+[2022-05-03 17:01:32]  Текст ошибки: <br>Not found view <b>D:\OpenServer\domains\framework/app/views/User/logout.php</b> | Файл: D:\OpenServer\domains\framework\vendor\fw\core\base\View.php | Строка: 46
+========================================

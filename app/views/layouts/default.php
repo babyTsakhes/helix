@@ -20,6 +20,7 @@ use fw\core\base\View;
       <li><a href="/admin">Admin</a></li>
       <li><a href="/user/signup">Signup</a></li>
       <li><a href="/user/login">Login</a></li>
+      <li><a href="/user/logout">Logout</a></li>
     </ul>
     <h1>Hello, world!</h1>
     <p><?=$content?></p>
