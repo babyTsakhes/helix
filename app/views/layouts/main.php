@@ -18,6 +18,9 @@
       <a class="navbar-brand" href="#">Main MENU</a>
       <div class="collapse navbar-collapse" id="navbarsExample02">
         <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="/admin">Admin</a>
+          </li>
         <?foreach ($menu as $category):?>
           <li class="nav-item active">
             <a class="nav-link" href="#"><?=$category->title?></a>

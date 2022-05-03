@@ -16,6 +16,11 @@ use fw\core\base\View;
     <title>Hello, world!</title>
   </head>
   <body>
+    <ul>
+      <li><a href="/admin">Admin</a></li>
+      <li><a href="/user/signup">Signup</a></li>
+      <li><a href="/user/login">Login</a></li>
+    </ul>
     <h1>Hello, world!</h1>
     <p><?=$content?></p>
 
