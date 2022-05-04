@@ -1,37 +1,25 @@
-<div id="container_demo" >
-    <!-- спрятанный якорь, чтобы избежать прыжков http://www.css3create.com/Astuce-Empecher-le-scroll-avec-l-utilisation-de-target#wrap4  -->
-    <a class="hiddenanchor" id="tosubscribe"></a>
-    <a class="hiddenanchor" id="tologin"></a>
-    <div id="wrapper">
-       
- 
-        <div id="subscribe" class="animate form">
-            <form  action="mysuperscript.php" autocomplete="on">
-                <h1> Sign up </h1>
-                <p>
-                    <label for="usernamesignup" class="uname" data-icon="u">Your username</label>
-                    <input id="usernamesignup" name="usernamesignup" required="required" type="text" placeholder="mysuperusername690" />
-                </p>
-                <p>
-                    <label for="emailsignup" class="youmail" data-icon="e" > Your email</label>
-                    <input id="emailsignup" name="emailsignup" required="required" type="text" placeholder="mysupermail@mail.com"/>
-                </p>
-                <p>
-                    <label for="passwordsignup" class="youpasswd" data-icon="p">Your password </label>
-                    <input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="eg. X8df!90EO"/>
-                </p>
-                <p>
-                    <label for="passwordsignup_confirm" class="youpasswd" data-icon="p">Please confirm your password </label>
-                    <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="eg. X8df!90EO"/>
-                </p>
-                <p class="signin button">
-                    <input type="submit" value="Sign up"/>
-                </p>
-                <p class="change_link">
-                    Already a member ?
-                    <a href="/user/login" class="to_subscribe"> Go and log in </a>
-                </p>
-            </form>
-        </div>
+<h2>Регистрация</h2>
+
+<div class="row">
+    <div class = "col-md-6">
+        <form method="post" action="/user/signup">
+            <div class="form-group">
+                <label for="login">Login</label>
+                <input type="text" name="login" class="form-control" id="login" placeholder="Login">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" class="form-control" id="password" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label for="name">Имя</label>
+                <input type="text" name="name" class="form-control" id="name" placeholder="Имя">
+            </div>
+            <div class="form-group">
+                <label for="email">email</label>
+                <input type="text" name="email" class="form-control" id="email" placeholder="Email">
+            </div>
+            <button type="submit" class="btn btn-default">Зарегистрироваться</button>
+        </form>
     </div>
 </div>

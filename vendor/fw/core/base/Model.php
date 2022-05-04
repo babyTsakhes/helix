@@ -6,10 +6,24 @@ abstract class Model {
     protected $pdo;
     protected $table;
     protected $pk = 'id';
+    public $attributes = [];
+    public $errors = [];
 
     public function __construct()
     {
         $this->pdo = Db::instance();
+    }
+
+    public function load($data){
+        foreach($this->attributes as $name => $value){
+            if(isset($data[$name])){
+                $this->attributes[$name] =  $data[$name];
+            }
+        }
+    }
+
+    public function validate($data){
+
     }
 
     public function query($sql){
