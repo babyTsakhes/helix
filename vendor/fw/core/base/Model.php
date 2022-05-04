@@ -1,6 +1,7 @@
 <?
 namespace fw\core\base;
 
+use Valitron\Validator;
 use fw\core\Db;
 abstract class Model {
     protected $pdo;
@@ -8,6 +9,7 @@ abstract class Model {
     protected $pk = 'id';
     public $attributes = [];
     public $errors = [];
+    public $rules = [];
 
     public function __construct()
     {
@@ -23,7 +25,13 @@ abstract class Model {
     }
 
     public function validate($data){
-
+        $v = new Validator($data);
+        $v->rules($this->rules);
+        if($v->validate()){
+            return true;
+        }
+        $this->errors = $v->errors();
+        return false;
     }
 
     public function query($sql){

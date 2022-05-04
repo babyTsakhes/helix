@@ -10,4 +10,19 @@ class User extends Model{
         'name'=>'',
         'role'=>'user'
     ];
+
+    public $rules = [
+        'required'=> [
+            ['login'],
+            ['password'],
+            ['email'],
+            ['name'],
+        ],
+        'email'=>[
+            ['email'],
+        ],
+        'lengthMin'=>[
+            ['password',6],
+        ]
+    ];
 }
