@@ -15,6 +15,10 @@ class ComposerStaticInita9150642b70cbaa985cd0c82da82513f
         array (
             'app\\' => 4,
         ),
+        'V' => 
+        array (
+            'Valitron\\' => 9,
+        ),
         'P' => 
         array (
             'Psr\\Log\\' => 8,
@@ -33,6 +37,10 @@ class ComposerStaticInita9150642b70cbaa985cd0c82da82513f
         'app\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
+        ),
+        'Valitron\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vlucas/valitron/src/Valitron',
         ),
         'Psr\\Log\\' => 
         array (
