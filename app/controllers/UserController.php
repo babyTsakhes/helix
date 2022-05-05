@@ -11,13 +11,13 @@ class UserController extends AppController{
             $user = new User;
             $data = $_POST;
             $user->load($data);
-            if($user->validate($data)){
-                echo "Ok";
+            if(!$user->validate($data)){
+                echo "No VAL";
+                $user->getErrors();
             }else{
                 echo "No";
             }
-            debug($user);
-            die();
+           
         }
         //echo 123;die;
         View::setMeta("Регистрация");

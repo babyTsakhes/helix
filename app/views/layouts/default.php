@@ -22,7 +22,19 @@ use fw\core\base\View;
       <li><a href="/user/login">Login</a></li>
       <li><a href="/user/logout">Logout</a></li>
     </ul>
-    <h1>Hello, world!</h1>
+    <? if(isset($_SESSION['error'])):?>
+      <div class = "alert alert-danger">
+        <?=$_SESSION['error'];?>
+        <? unset($_SESSION['error'])?>
+      </div>
+      <?endif;?>
+
+      <? if(isset($_SESSION['success'])):?>
+      <div class = "alert alert-success">
+        <?=$_SESSION['success'];?>
+        <? unset($_SESSION['success'])?>
+      </div>
+      <?endif;?>
     <p><?=$content?></p>
 
     <!-- Optional JavaScript; choose one of the two! -->
