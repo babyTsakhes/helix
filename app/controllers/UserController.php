@@ -14,9 +14,14 @@ class UserController extends AppController{
             if(!$user->validate($data)){
                 echo "No VAL";
                 $user->getErrors();
-            }else{
-                echo "No";
+                redirect();
             }
+            if($user->save('user')){
+                $_SESSION['success'] = 'Вы успешно зарегистрировались!';
+            }else{
+                $_SESSION['error'] = 'Error';
+            }
+            redirect();
            
         }
         //echo 123;die;
