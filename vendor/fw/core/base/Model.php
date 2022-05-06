@@ -25,6 +25,7 @@ abstract class Model {
     }
 
     public function validate($data){
+        Validator::langDir(WWW . '/valitron/lang');
         Validator::lang("ru");
         $v = new Validator($data);
         $v->rules($this->rules);
