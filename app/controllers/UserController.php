@@ -32,11 +32,21 @@ class UserController extends AppController{
     }
 
     public function loginAction(){
-
+        if(!empty($_POST)){
+            $user = new User();
+            if($user->login()){
+                $_SESSION['success'] = 'Вы успешно авторизованы!';
+            }else{
+                $_SESSION['error'] = 'Логин/пароль неверен';
+            }
+            redirect();
+        }
+        View::setMeta("Вход");
     }
 
     public function logoutAction(){
-
+        if(isset($_SESSION['user'])) unset($_SESSION['user']);
+        redirect();
     }
 
 }
