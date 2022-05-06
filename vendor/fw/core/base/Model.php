@@ -25,6 +25,7 @@ abstract class Model {
     }
 
     public function validate($data){
+        Validator::lang("ru");
         $v = new Validator($data);
         $v->rules($this->rules);
         if($v->validate()){
