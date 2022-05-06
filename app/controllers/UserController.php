@@ -46,7 +46,7 @@ class UserController extends AppController{
 
     public function logoutAction(){
         if(isset($_SESSION['user'])) unset($_SESSION['user']);
-        redirect();
+        redirect('/user/login');
     }
 
 }
