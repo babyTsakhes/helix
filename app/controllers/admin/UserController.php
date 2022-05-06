@@ -7,8 +7,9 @@ use fw\core\base\View;
 class UserController extends AppController{
     public $layout = 'default';
     public function indexAction(){
+        debug($this->route);
         View::setMeta('Admin','admin panel','admin page');
-        $test = "Testovaya ";
+      /*   $test = "Testovaya ";
         $data = [
             'test',
             2
@@ -17,7 +18,7 @@ class UserController extends AppController{
             'test'=>$test,
             'data'=>$data
         ]);
-        echo __METHOD__;
+        echo __METHOD__; */
     }
 
     public function testAction(){
