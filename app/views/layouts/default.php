@@ -24,8 +24,10 @@ use fw\core\base\View;
     </ul>
     <? if(isset($_SESSION['error'])):?>
       <div class = "alert alert-danger">
+
         <?=$_SESSION['error'];?>
         <? unset($_SESSION['error'])?>
+       
       </div>
       <?endif;?>
 

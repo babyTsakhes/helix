@@ -42,7 +42,8 @@ abstract class Model {
             }
         }
         $errors .= '</ul>';
-        $_SESSION['error'] = $errors;
+        if($this->errors)
+            $_SESSION['error'] = $errors;
     }
 
     public function save($table){
