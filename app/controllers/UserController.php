@@ -11,7 +11,7 @@ class UserController extends AppController{
             $user = new User;
             $data = $_POST;
             $user->load($data);
-            if(!$user->validate($data)){
+            if(!$user->validate($data) || $user->checkUnique()){
                 echo "No VAL";
                 $user->getErrors();
                 redirect();
