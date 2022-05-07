@@ -40,13 +40,15 @@ class View{
         }
          
         $file_view = APP . "/views/{$this->route['prefix']}{$this->route['controller']}/{$this->view}.php";
-        ob_start();
+        ob_start([$this,'compressPage']);
         if(is_file($file_view)){
             require $file_view;
         }else{
             throw new \Exception("<br>Not found view <b>$file_view</b>",404);
         }
-        $content = ob_get_clean();
+        $content = ob_get_contents();
+        ob_clean();
+        //$content = ob_get_clean();
 
         if($this->layout !== false){
             $file_layout = APP."/views/layouts/{$this->layout}.php";
@@ -63,6 +65,28 @@ class View{
                 throw new \Exception( "<br>Not Found layout $file_layout",404);
             }
         }
+    }
+
+    protected function compressPage($buffer){
+        $search = [
+            "/(\n)+/",
+            "/\r\n+/",
+            "/\n(\t)+/",
+            "/\n(\ )+/",
+            "/\>(\n)+</",
+            "/\>\r\n</",
+        ];
+
+        $replace = [
+            "\n",
+            "\n",
+            "\n",
+            "\n",
+            "><",
+            "><"
+        ];
+
+        return preg_replace($search,$replace,$buffer);
     }
 
     protected function getScripts($content){
