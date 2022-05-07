@@ -45,13 +45,16 @@ class View
 
         $file_view = APP . "/views/{$this->route['prefix']}{$this->route['controller']}/{$this->view}.php";
         ob_start([$this, 'compressPage']); 
+        //ob_start("ob_gzhandler");
         {
+            //header("Content-Encoding: gzip");
             if (is_file($file_view)) {
                 require $file_view;
             } else {
                 throw new \Exception("<br>Not found view <b>$file_view</b>", 404);
             }
             $content = ob_get_contents();
+            //var_dump($content);die;
         }
         ob_clean();
         //$content = ob_get_clean();
