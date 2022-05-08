@@ -52,16 +52,18 @@
       <?endforeach;?>
         <?endif;?>
 
-       
-    </div>
-  </div>
-</div>
- <div class="text-center">
+        <div class="text-center">
+ <nav aria-label="Page navigation example">
           <p>Статей: <?=count($posts)?> из <?=$total?></p>
           <? if($pagination->countPages > 1): ?>
             <?=$pagination->getHtml()?>
             <?endif;?>
+ </nav>
         </div>
+    </div>
+  </div>
+</div>
+
 </main>
 <script>
      $(function(){
