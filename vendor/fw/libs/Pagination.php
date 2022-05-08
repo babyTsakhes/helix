@@ -100,4 +100,8 @@ class Pagination
         return '<ul class="pagination">'.$startpage.$back.$page2left.$page1left.'<li class="page-item active"><a class="page-link">'.$this->currentPage.'</a></li>'.$page1right.$page2right.$forward.$endpage.'</ul>';
 
     }
+
+    public function getPart($file){
+
+    }
 }
