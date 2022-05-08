@@ -219,3 +219,11 @@ Stack trace:
 ========================================
 [2022-05-07 21:33:08]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
 ========================================
+[2022-05-08 12:42:52]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-08 12:43:00]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-08 16:14:55]  Текст ошибки: Call to undefined method fw\libs\Pagination::getCurrentPages() | Файл: D:\OpenServer\domains\framework\vendor\fw\libs\Pagination.php | Строка: 19
+========================================
+[2022-05-08 16:15:39]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================

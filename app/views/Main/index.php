@@ -51,10 +51,17 @@
 
       <?endforeach;?>
         <?endif;?>
+
+       
     </div>
   </div>
 </div>
-
+ <div class="text-center">
+          <p>Статей: <?=count($posts)?> из <?=$total?></p>
+          <? if($pagination->countPages > 1): ?>
+            <?=$pagination->getHtml()?>
+            <?endif;?>
+        </div>
 </main>
 <script>
      $(function(){

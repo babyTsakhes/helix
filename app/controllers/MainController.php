@@ -6,6 +6,7 @@ use classes\Cache;
 use fw\core\Registry;
 use fw\core\App;
 use fw\core\base\View;
+use fw\libs\Pagination;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
 
@@ -15,26 +16,26 @@ class MainController extends AppController{
 
     public function indexAction(){
 
-        $log = new Logger('name');
-        $log->pushHandler(new StreamHandler(ROOT . '/tmp/your.log'),Logger::WARNING);
-        $log->warning('GGG');
-        $log->error("HHH");
+        $total = \R::count("posts");
+        $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+        $perpage = 3;
 
+        $pagination = new Pagination($page,$perpage,$total);
+        $start = $pagination->getStart();
 
         $model = new Main;
-        $posts = App::$app->cache->get('posts');
+       // $posts = App::$app->cache->get('posts');
      
-        if(!$posts)
-        {
-            $posts = \R::findAll('posts');
+       
+            $posts = \R::findAll('posts', "LIMIT $start,$perpage");
             App::$app->cache->set('posts',$posts,3600*24);
-        }
+        
         $menu = $this->menu;
         $title  = "POSTS";
       /*   $this->setMeta('Главная страница333','mainpage ahahah ','ключевые слова aliexpress mvideo');
         $meta = $this->meta; */
         View::getMeta('MAIN PAGE', 'main page of framework','framework');
-        $this->set(compact('posts','menu','meta'));
+        $this->set(compact('posts','menu','meta','pagination','total'));
     
     }
 
