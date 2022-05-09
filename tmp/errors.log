@@ -5741,3 +5741,11 @@ Stack trace:
 ========================================
 [2022-05-09 19:06:20]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
 ========================================
+[2022-05-09 19:23:35]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-09 19:34:13]  Текст ошибки: <br>Not found view <b>D:\OpenServer\domains\framework/app/views/Language/change.php</b> | Файл: D:\OpenServer\domains\framework\vendor\fw\core\base\View.php | Строка: 54
+========================================
+[2022-05-09 19:40:39]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-09 19:42:07]  Текст ошибки: <br>Not found view <b>D:\OpenServer\domains\framework/app/views/Language/change.php</b> | Файл: D:\OpenServer\domains\framework\vendor\fw\core\base\View.php | Строка: 54
+========================================
