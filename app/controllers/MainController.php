@@ -12,14 +12,15 @@ use Monolog\Logger;
 
 class MainController extends AppController{
 
-    public $layout = 'burger';
+    public $layout = 'proga';
 
     public function indexAction(){
 
         $total = \R::count("posts");
         $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
         $perpage = 3;
-
+        App::$app->setProperty('test','testValue');
+      
         $pagination = new Pagination($page,$perpage,$total);
         $start = $pagination->getStart();
 
@@ -28,7 +29,7 @@ class MainController extends AppController{
      
        
             $posts = \R::findAll('posts', "LIMIT $start,$perpage");
-            App::$app->cache->set('posts',$posts,3600*24);
+         //   App::$app->cache->set('posts',$posts,3600*24);
         
         $menu = $this->menu;
         $title  = "POSTS";

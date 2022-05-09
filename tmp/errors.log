@@ -5639,3 +5639,29 @@ Stack trace:
 ========================================
 [2022-05-09 10:12:24]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
 ========================================
+[2022-05-09 13:30:52]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-09 13:35:48]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-09 13:35:49]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-09 13:36:19]  Текст ошибки: syntax error, unexpected 'var_dump' (T_STRING) | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 23
+========================================
+[2022-05-09 13:36:21]  Текст ошибки: syntax error, unexpected 'var_dump' (T_STRING) | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 23
+========================================
+[2022-05-09 13:36:30]  Текст ошибки: Call to undefined method fw\core\Registry::setProperties() | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 22
+========================================
+[2022-05-09 13:36:35]  Текст ошибки: Call to undefined method fw\core\Registry::setProperties() | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 22
+========================================
+[2022-05-09 13:36:44]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-09 16:18:14]  Текст ошибки: syntax error, unexpected '}' | Файл: D:\OpenServer\domains\framework\app\controllers\AppController.php | Строка: 18
+========================================
+[2022-05-09 16:18:21]  Текст ошибки: syntax error, unexpected '}', expecting ';' | Файл: D:\OpenServer\domains\framework\vendor\fw\widgets\language\Language.php | Строка: 21
+========================================
+[2022-05-09 16:18:45]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-09 16:21:15]  Текст ошибки: Call to undefined method fw\widgets\language\Language::getLanguage() | Файл: D:\OpenServer\domains\framework\app\controllers\AppController.php | Строка: 17
+========================================
+[2022-05-09 16:23:23]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================

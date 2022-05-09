@@ -1,6 +1,9 @@
 <?
 namespace app\controllers;
+
+use fw\core\App;
 use fw\core\base\Controller;
+use fw\widgets\language\Language;
 class AppController extends Controller{
 
     public $menu;
@@ -10,10 +13,9 @@ class AppController extends Controller{
         parent::__construct($route);
         new \app\models\Main;
         $this->menu = \R::findAll('category');
-        if($this->route['action'] == 'test')
-        {
-          //  echo '<h1>TEST</h1>';
-        }
+        App::$app->setProperty('langs',Language::getLanguages());
+        App::$app->setProperty('lang',Language::getLanguage(App::$app->getProperty('langs')));
+        debug(App::$app->getProperties());
     }
 
     public function test(){
