@@ -120,4 +120,14 @@ class View
         self::$meta['desc'] = $desc;
         self::$meta['keywords'] = $keywords;
     }
+
+
+    public function getPart($file){
+        $file = APP . "/views/{$file}.php";
+        if (is_file($file)) {
+            require $file;
+        } else {
+            throw new \Exception("<br>Not Found file $file", 404);
+        }
+    }
 }

@@ -150,7 +150,7 @@ use fw\core\base\View;
     <!-- about_area_end -->
 
     <!-- gallery_start -->
-    <div class="gallery_area">
+   <!--  <div class="gallery_area">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
@@ -198,8 +198,8 @@ use fw\core\base\View;
                 </a>
                 <img src="/burger/img/gallery/6.png" alt="">
             </div>
-        </div>
-
+        </div> -->
+<?$this->getPart('inc/sidebar');?>
     <!-- testimonial_area_start  -->
     <div class="testimonial_area ">
         <div class="container">
