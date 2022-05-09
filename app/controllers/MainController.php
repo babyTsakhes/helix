@@ -12,7 +12,7 @@ use Monolog\Logger;
 
 class MainController extends AppController{
 
-    public $layout = 'proga';
+    public $layout = 'burger';
 
     public function indexAction(){
 
