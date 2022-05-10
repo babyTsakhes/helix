@@ -20,6 +20,6 @@ class Lang{
     }
 
     public static function get($key){
-        return isset(self::$lang_data['key']) ? self::$lang_data['key'] : $key;
+        return isset(self::$lang_data[$key]) ? self::$lang_data[$key] : $key;
     }
 }

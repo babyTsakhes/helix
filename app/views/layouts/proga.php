@@ -15,9 +15,9 @@
     <a href="#home" class="w3-bar-item w3-button"><b>BR</b> Architects</a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
-      <a href="#projects" class="w3-bar-item w3-button"><?=Lang::$lang_data['Projects']?></a>
-      <a href="#about" class="w3-bar-item w3-button"><?=Lang::$lang_data['About']?></a>
-      <a href="#contact" class="w3-bar-item w3-button"><?=Lang::$lang_data['Contact']?></a>
+      <a href="#projects" class="w3-bar-item w3-button"><?__('Projects')?></a>
+      <a href="#about" class="w3-bar-item w3-button"><?__('About')?></a>
+      <a href="#contact" class="w3-bar-item w3-button"><?__('Contact')?></a>
     </div>
   </div>
 </div>
@@ -35,31 +35,31 @@
 
   <!-- Project Section -->
   <div class="w3-container w3-padding-32" id="projects">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"><?=Lang::$lang_data['Projects']?></h3>
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"><?__('Projects')?></h3>
   </div>
 
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding"><?=Lang::$lang_data['Summer House']?></div>
+        <div class="w3-display-topleft w3-black w3-padding"><?__('Summer House')?></div>
         <img src="https://www.w3schools.com/w3images/house5.jpg" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding"><?=Lang::$lang_data['Brick House']?></div>
+        <div class="w3-display-topleft w3-black w3-padding"><?__('Brick House')?></div>
         <img src="https://www.w3schools.com/w3images/house2.jpg" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding"><?=Lang::$lang_data['Renovated']?></div>
+        <div class="w3-display-topleft w3-black w3-padding"><?__('Renovated')?></div>
         <img src="https://www.w3schools.com/w3images/house3.jpg" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding"><?=Lang::$lang_data['Barn House']?></div>
+        <div class="w3-display-topleft w3-black w3-padding"><?__('Barn House')?></div>
         <img src="https://www.w3schools.com/w3images/house4.jpg" alt="House" style="width:100%">
       </div>
     </div>
@@ -69,8 +69,8 @@
 
   <!-- About Section -->
   <div class="w3-container w3-padding-32" id="about">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"><?=Lang::$lang_data['About']?></h3>
-    <p><?=Lang::$lang_data['big text']?>
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"><?__('About')?></h3>
+    <p><?__('big text')?>
     </p>
   </div>
 
@@ -78,44 +78,44 @@
     <div class="w3-col l3 m6 w3-margin-bottom">
       <img src="https://www.w3schools.com/w3images/team2.jpg" alt="John" style="width:100%">
       <h3>John Doe</h3>
-      <p class="w3-opacity"><?=Lang::$lang_data['CEO & Founder']?></p>
+      <p class="w3-opacity"><?__('CEO & Founder')?></p>
       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block"><?=Lang::$lang_data['Contact']?></button></p>
+      <p><button class="w3-button w3-light-grey w3-block"><?__('Contact')?></button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <img src="https://www.w3schools.com/w3images/team1.jpg" alt="Jane" style="width:100%">
       <h3>Jane Doe</h3>
-      <p class="w3-opacity"><?=Lang::$lang_data['Architect']?></p>
+      <p class="w3-opacity"><?__('Architect')?></p>
       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block"><?=Lang::$lang_data['Contact']?></button></p>
+      <p><button class="w3-button w3-light-grey w3-block"><?__('Contact')?></button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <img src="https://www.w3schools.com/w3images/team3.jpg" alt="Mike" style="width:100%">
       <h3>Mike Ross</h3>
-      <p class="w3-opacity"><?=Lang::$lang_data['Architect']?></p>
+      <p class="w3-opacity"><?__('Architect')?></p>
       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block"><?=Lang::$lang_data['Contact']?></button></p>
+      <p><button class="w3-button w3-light-grey w3-block"><?__('Contact')?></button></p>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <img src="https://www.w3schools.com/w3images/team4.jpg" alt="Dan" style="width:100%">
       <h3>Dan Star</h3>
-      <p class="w3-opacity"><?=Lang::$lang_data['Architect']?></p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block"><?=Lang::$lang_data['Contact']?></button></p>
+      <p class="w3-opacity"><?__('Architect')?></p>
+      <p><?__('phrase big')?></p>
+      <p><button class="w3-button w3-light-grey w3-block"><?__('Contact')?></button></p>
     </div>
   </div>
   <? new fw\widgets\language\Language()?>
   <!-- Contact Section -->
   <div class="w3-container w3-padding-32" id="contact">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"><?=Lang::$lang_data['Contact']?></h3>
-    <p>Lets get in touch and talk about your next project.</p>
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"><?__('Contact')?></h3>
+    <p><?=__('Lets get')?></p>
     <form action="https://www.w3schools.com/action_page.php" target="_blank">
       <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
       <button class="w3-button w3-black w3-section" type="submit">
-        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        <i class="fa fa-paper-plane"></i> <?=__('send message')?>
       </button>
     </form>
   </div>
