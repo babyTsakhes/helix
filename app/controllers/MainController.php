@@ -28,15 +28,16 @@ class MainController extends AppController{
        // $posts = App::$app->cache->get('posts');
      
        
-            $posts = \R::findAll('posts', "LIMIT $start,$perpage");
+        $posts = \R::findAll('posts', "LIMIT $start,$perpage");
          //   App::$app->cache->set('posts',$posts,3600*24);
+        $workers = \R::findAll('workers');
         
         $menu = $this->menu;
         $title  = "POSTS";
       /*   $this->setMeta('Главная страница333','mainpage ahahah ','ключевые слова aliexpress mvideo');
         $meta = $this->meta; */
         View::getMeta('MAIN PAGE', 'main page of framework','framework');
-        $this->set(compact('posts','menu','meta','pagination','total'));
+        $this->set(compact('posts','menu','meta','pagination','total','workers'));
     
     }
 

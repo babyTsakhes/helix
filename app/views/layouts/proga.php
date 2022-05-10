@@ -75,34 +75,15 @@
   </div>
 
   <div class="w3-row-padding w3-grayscale">
+    <?foreach($workers as $worker):?>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="https://www.w3schools.com/w3images/team2.jpg" alt="John" style="width:100%">
-      <h3>John Doe</h3>
-      <p class="w3-opacity"><?__('CEO & Founder')?></p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      <img src="<?=$worker['image']?>" alt="<?=$worker['name']?>" style="width:100%">
+      <h3><?=$worker['name']?></h3>
+      <p class="w3-opacity"><?=$worker['vacancy']?></p>
+      <p><?=$worker['description']?></p>
       <p><button class="w3-button w3-light-grey w3-block"><?__('Contact')?></button></p>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="https://www.w3schools.com/w3images/team1.jpg" alt="Jane" style="width:100%">
-      <h3>Jane Doe</h3>
-      <p class="w3-opacity"><?__('Architect')?></p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block"><?__('Contact')?></button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="https://www.w3schools.com/w3images/team3.jpg" alt="Mike" style="width:100%">
-      <h3>Mike Ross</h3>
-      <p class="w3-opacity"><?__('Architect')?></p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block"><?__('Contact')?></button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="https://www.w3schools.com/w3images/team4.jpg" alt="Dan" style="width:100%">
-      <h3>Dan Star</h3>
-      <p class="w3-opacity"><?__('Architect')?></p>
-      <p><?__('phrase big')?></p>
-      <p><button class="w3-button w3-light-grey w3-block"><?__('Contact')?></button></p>
-    </div>
+    <?endforeach;?>
   </div>
   <? new fw\widgets\language\Language()?>
   <!-- Contact Section -->
