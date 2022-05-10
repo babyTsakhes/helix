@@ -19,7 +19,7 @@ class Lang{
         self::$lang_data = array_merge(self::$lang_view,self::$lang_layout);
     }
 
-    public static function get($key){
-        return isset(self::$lang_data[$key]) ? self::$lang_data[$key] : $key;
+    public static function get($key,$default = ''){
+        return isset(self::$lang_data[$key]) ? self::$lang_data[$key] : $default;
     }
 }
