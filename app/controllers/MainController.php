@@ -15,7 +15,8 @@ class MainController extends AppController{
     public $layout = 'proga';
 
     public function indexAction(){
-        $workers = \R::findAll('workers');
+        $lang = App::$app->getProperty('lang')['code'];
+        $workers = \R::findAll('workers','lang_code = ?',[$lang]);
         View::setMeta('MAIN PAGE', 'main page of framework','framework');
         $this->set(compact('workers'));
     

@@ -5757,3 +5757,5 @@ Stack trace:
 ========================================
 [2022-05-10 12:42:52]  Текст ошибки: Class name must be a valid object or a string | Файл: D:\OpenServer\domains\framework\app\views\layouts\proga.php | Строка: 134
 ========================================
+[2022-05-10 13:42:09]  Текст ошибки: Expected array, string given. | Файл: D:\OpenServer\domains\framework\vendor\fw\libs\rb.php | Строка: 10187
+========================================
