@@ -131,6 +131,7 @@
       <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
     </div>
   </div>
+  <? debug ( fw\core\base\Lang::$lang_data)?>
   <? new fw\widgets\language\Language()?>
   <!-- Contact Section -->
   <div class="w3-container w3-padding-32" id="contact">
