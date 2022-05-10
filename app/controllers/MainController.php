@@ -15,29 +15,9 @@ class MainController extends AppController{
     public $layout = 'proga';
 
     public function indexAction(){
-
-        $total = \R::count("posts");
-        $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
-        $perpage = 3;
-        App::$app->setProperty('test','testValue');
-      
-        $pagination = new Pagination($page,$perpage,$total);
-        $start = $pagination->getStart();
-
-        $model = new Main;
-       // $posts = App::$app->cache->get('posts');
-     
-       
-        $posts = \R::findAll('posts', "LIMIT $start,$perpage");
-         //   App::$app->cache->set('posts',$posts,3600*24);
         $workers = \R::findAll('workers');
-        
-        $menu = $this->menu;
-        $title  = "POSTS";
-      /*   $this->setMeta('Главная страница333','mainpage ahahah ','ключевые слова aliexpress mvideo');
-        $meta = $this->meta; */
-        View::getMeta('MAIN PAGE', 'main page of framework','framework');
-        $this->set(compact('posts','menu','meta','pagination','total','workers'));
+        View::setMeta('MAIN PAGE', 'main page of framework','framework');
+        $this->set(compact('workers'));
     
     }
 
