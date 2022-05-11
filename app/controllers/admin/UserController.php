@@ -22,7 +22,7 @@ class UserController extends AppController{
     }
 
     public function loginAction(){
-        echo 12222;
+        $this->layout = 'login';
     }
 
     public function testAction(){
