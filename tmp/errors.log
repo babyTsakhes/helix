@@ -6197,3 +6197,67 @@ Stack trace:
 ========================================
 [2022-05-10 22:33:05]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
 ========================================
+[2022-05-11 20:39:02]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-11 20:39:02]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-11 20:39:03]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-11 20:39:42]  Текст ошибки: Контроллер <b>app\controllers\FrameworkController</b> не найден | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 83
+========================================
+[2022-05-11 20:39:51]  Текст ошибки: Контроллер <b>app\controllers\FrameworkController</b> не найден | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 83
+========================================
+[2022-05-11 20:39:52]  Текст ошибки: Контроллер <b>app\controllers\FrameworkController</b> не найден | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 83
+========================================
+[2022-05-11 20:39:52]  Текст ошибки: Контроллер <b>app\controllers\FrameworkController</b> не найден | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 83
+========================================
+[2022-05-11 20:39:52]  Текст ошибки: Контроллер <b>app\controllers\FrameworkController</b> не найден | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 83
+========================================
+[2022-05-11 20:39:53]  Текст ошибки: Контроллер <b>app\controllers\FrameworkController</b> не найден | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 83
+========================================
+[2022-05-11 20:39:53]  Текст ошибки: Контроллер <b>app\controllers\FrameworkController</b> не найден | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 83
+========================================
+[2022-05-11 20:39:53]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-11 20:39:54]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-11 20:39:54]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-11 20:39:57]  Текст ошибки: Контроллер <b>app\controllers\FrameworkController</b> не найден | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 83
+========================================
+[2022-05-11 21:19:28]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-11 21:19:54]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-11 21:19:55]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-11 21:20:01]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-11 21:20:18]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-11 21:20:27]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-11 21:20:28]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-11 21:28:10]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-11 21:28:11]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-11 21:28:11]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-11 21:28:12]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-11 21:30:10]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-11 21:30:35]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-11 21:30:42]  Текст ошибки: Метода<b>loginAction</b> у контроллера<b>app\controllers\admin\UserController</b> нет | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 78
+========================================
+[2022-05-11 21:30:45]  Текст ошибки: Метода<b>loginAction</b> у контроллера<b>app\controllers\admin\UserController</b> нет | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 78
+========================================
+[2022-05-11 21:31:22]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-11 21:32:18]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
+[2022-05-11 21:32:27]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================

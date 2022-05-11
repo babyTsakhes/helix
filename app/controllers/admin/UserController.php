@@ -21,6 +21,10 @@ class UserController extends AppController{
         echo __METHOD__; */
     }
 
+    public function loginAction(){
+        echo 12222;
+    }
+
     public function testAction(){
         echo __METHOD__;
     }
