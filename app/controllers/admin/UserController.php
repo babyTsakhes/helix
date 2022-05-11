@@ -2,6 +2,7 @@
 
 namespace app\controllers\admin;
 
+use app\models\User;
 use fw\core\base\View;
 
 class UserController extends AppController{
@@ -22,6 +23,21 @@ class UserController extends AppController{
     }
 
     public function loginAction(){
+   //     debug($_POST,1);
+        if(!empty($_POST)){
+            $user = new User;
+            (var_dump($user->login(true)));
+            if(!$user->login(true)){
+                $_SESSION['error'] = 'Логин пароль введены неверно';
+            }else{
+                if(User::isAdmin()){
+                    redirect('/admin/');
+                }else{
+                    redirect();
+                }
+            }
+           
+        }
         $this->layout = 'login';
     }
 

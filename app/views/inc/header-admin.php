@@ -7,7 +7,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <base href="/admin/">
+  <base href="/public/admin/">
   <title>AdminLTE 3 | Starter</title>
 
   <!-- Google Font: Source Sans Pro -->

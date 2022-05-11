@@ -1,10 +1,26 @@
 <div class="card">
     <div class="card-body login-card-body">
-      <p class="login-box-msg">Sign in to start your session</p>
-
+      <p class="login-box-msg">Sign in to start your session))</p>
+      <div class="row">
+      <?if(isset($_SESSION['error'])):?>
+        <div class="col-md-3">
+            <div class="card bg-danger">
+              <div class="card-header">
+                <h3 class="card-title">Danger</h3>
+              </div>
+              <div class="card-body">
+                <?=$_SESSION['error']?>
+                <?unset($_SESSION['error'])?>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+              <?endif;?>
+      </div>
       <form action="<?=ADMIN?>/user/login" method="post">
         <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="login">
+          <input type="text" class="form-control" name="login" id="login" placeholder="Login">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-user"></span>
@@ -12,7 +28,7 @@
           </div>
         </div>
         <div class="input-group mb-3">
-          <input type="password" class="form-control" placeholder="Password">
+          <input type="password" name="password" id="password" class="form-control" placeholder="Password">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-lock"></span>

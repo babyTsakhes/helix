@@ -43,11 +43,15 @@ class User extends Model{
 
     }
 
-    public function login(){
+    public function login($isAdmin = false){
         $login = !empty(trim($_POST['login'])) ? trim($_POST['login']) : null;
-        $password = !empty(trim($_POST['password'])) ? trim($_POST['password']) : null;
+        $password = !empty(trim($_POST['password'])) ? trim($_POST['password']) : null;   
         if($login && $password){
-            $user = \R::findOne('user','login = ? LIMIT 1',[$login]);
+            if($isAdmin){
+                $user = \R::findOne('user',"login = ? AND role = 'admin' LIMIT 1",[$login]);
+            }else{
+                $user = \R::findOne('user','login = ? LIMIT 1',[$login]);
+            }
             if($user){
                 if(password_verify($password,$user->password)){
                     foreach($user as $key => $value){
