@@ -7917,3 +7917,35 @@ Stack trace:
 ========================================
 [2022-05-13 16:08:36]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
 ========================================
+[2022-05-13 16:15:15]  Текст ошибки: Контроллер <b>app\controllers\ViewController</b> не найден | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 83
+========================================
+[2022-05-13 16:15:26]  Текст ошибки: <br>Not found view <b>D:\OpenServer\domains\framework/app/views/Main/view.php</b> | Файл: D:\OpenServer\domains\framework\vendor\fw\core\base\View.php | Строка: 56
+========================================
+[2022-05-13 16:18:15]  Текст ошибки: syntax error, unexpected ')' | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 29
+========================================
+[2022-05-13 16:18:18]  Текст ошибки: syntax error, unexpected ')' | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 29
+========================================
+[2022-05-13 16:18:54]  Текст ошибки: syntax error, unexpected ',' | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 28
+========================================
+[2022-05-13 16:27:07]  Текст ошибки: Метода<b>viewAction</b> у контроллера<b>app\controllers\MainController</b> нет | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 78
+========================================
+[2022-05-13 16:27:08]  Текст ошибки: Метода<b>viewAction</b> у контроллера<b>app\controllers\MainController</b> нет | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 78
+========================================
+[2022-05-13 16:28:20]  Текст ошибки: <br>Not found view <b>D:\OpenServer\domains\framework/app/views/Main/imt.php</b> | Файл: D:\OpenServer\domains\framework\vendor\fw\core\base\View.php | Строка: 56
+========================================
+[2022-05-13 16:28:49]  Текст ошибки: <br>Not found view <b>D:\OpenServer\domains\framework/app/views/Main/imt.php</b> | Файл: D:\OpenServer\domains\framework\vendor\fw\core\base\View.php | Строка: 56
+========================================
+[2022-05-13 16:28:52]  Текст ошибки: Метода<b>viewAction</b> у контроллера<b>app\controllers\MainController</b> нет | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 78
+========================================
+[2022-05-13 16:28:53]  Текст ошибки: Метода<b>viewAction</b> у контроллера<b>app\controllers\MainController</b> нет | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 78
+========================================
+[2022-05-13 16:28:55]  Текст ошибки: Метода<b>viewAction</b> у контроллера<b>app\controllers\MainController</b> нет | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 78
+========================================
+[2022-05-13 16:29:23]  Текст ошибки: Контроллер <b>app\controllers\ViewController</b> не найден | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 83
+========================================
+[2022-05-13 16:29:45]  Текст ошибки: Контроллер <b>app\controllers\ViewController</b> не найден | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 83
+========================================
+[2022-05-13 16:29:49]  Текст ошибки: Метода<b>imtAction</b> у контроллера<b>app\controllers\MainController</b> нет | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 78
+========================================
+[2022-05-13 16:32:06]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
+========================================
