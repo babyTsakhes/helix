@@ -17,6 +17,7 @@ class Lang{
             self::$lang_view = require_once $lang_view;
         }
         self::$lang_data = array_merge(self::$lang_view,self::$lang_layout);
+    
     }
 
     public static function get($key,$default = ''){

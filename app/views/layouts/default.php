@@ -17,11 +17,12 @@ use fw\core\base\View;
   </head>
   <body>
     <ul>
-      <li><a href="/admin">Admin</a></li>
-      <li><a href="/user/signup">Signup</a></li>
-      <li><a href="/user/login">Login</a></li>
-      <li><a href="/user/logout">Logout</a></li>
+      <li><a href="/admin"><?__('Admin')?></a></li>
+      <li><a href="/user/signup"><?__('Signup')?></a></li>
+      <li><a href="/user/login"><?__('Login')?></a></li>
+      <li><a href="/user/logout"><?__('Logout')?></a></li>
     </ul>
+    
     <? if(isset($_SESSION['error'])):?>
       <div class = "alert alert-danger">
 
@@ -52,6 +53,7 @@ use fw\core\base\View;
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
+    <? new fw\widgets\language\Language()?>
   </body>
   
 </html>

@@ -7949,3 +7949,19 @@ Stack trace:
 ========================================
 [2022-05-13 16:32:06]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 88
 ========================================
+[2022-05-15 19:58:45]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-15 20:07:16]  Текст ошибки: syntax error, unexpected 'action' (T_STRING) | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 67
+========================================
+[2022-05-15 20:08:07]  Текст ошибки: syntax error, unexpected 'Роутер' (T_STRING) | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 36
+========================================
+[2022-05-15 20:08:23]  Текст ошибки: syntax error, unexpected 'foreach' (T_FOREACH) | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 60
+========================================
+[2022-05-15 20:11:06]  Текст ошибки: syntax error, unexpected '', $name);' (T_CONSTANT_ENCAPSED_STRING) | Файл: D:\OpenServer\domains\framework\app\controllers\MainController.php | Строка: 124
+========================================
+[2022-05-15 22:57:34]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-15 22:57:48]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-15 23:04:18]  Текст ошибки: Контроллер <b>app\controllers\RuController</b> не найден | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 84
+========================================

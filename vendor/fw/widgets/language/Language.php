@@ -18,6 +18,7 @@ class Language{
         
         $this->languages = App::$app->getProperty('langs');
         $this->language = App::$app->getProperty('lang');
+       // debug($this->language,1);
         echo $this->getHtml();
 
     }
@@ -39,6 +40,7 @@ class Language{
 
     protected function getHtml(){
         ob_start();
+     //   debug($this->tpl,1);
         require_once $this->tpl;
         return ob_get_clean();
     }

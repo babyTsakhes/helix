@@ -6,3 +6,4 @@
             <?endif;?>
         <?endforeach;?>
 </select>
+<script src = "/proga/js/main.js"> </script>
