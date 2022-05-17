@@ -3,5 +3,5 @@ RewriteCond ${REQUEST_FILENAME} !-d
 #RewriteRule (test/) test/index.php [L]
 #RewriteRule (^test.php$) test.php [L,QSA]
 RewriteRule (^proga/js/main.js$) proga/js/main.js [L,QSA]
-RewriteRule (^/admin/$)  /admin/ [L,QSA]
+#RewriteRule (^/admin/$)  /admin/ [L,QSA]
 RewriteRule (.*) index.php?$1 [L,QSA]
