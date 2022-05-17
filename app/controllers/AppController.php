@@ -8,6 +8,8 @@ class AppController extends Controller{
 
     public $menu;
     public $meta = [];
+    static $langs = [];
+    static $lang;
 
     public function __construct($route){
         parent::__construct($route);
@@ -15,6 +17,9 @@ class AppController extends Controller{
         $this->menu = \R::findAll('category');
         App::$app->setProperty('langs',Language::getLanguages());
         App::$app->setProperty('lang',Language::getLanguage(App::$app->getProperty('langs')));
+        self::$langs = App::$app->getProperty('langs');
+        self::$lang = App::$app->getProperty('langs');
+        
     }
 
     public function test(){

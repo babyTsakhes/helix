@@ -18,5 +18,6 @@ return [
     'Login'=>'Login',
     'Admin'=>'Admin',
     'Signup'=>'Signup',
-    'Logout'=>'Logout'
+    'Logout'=>'Logout',
+    'Starter Pages'=>'Starter Pages'
 ];

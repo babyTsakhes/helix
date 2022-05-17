@@ -6,4 +6,11 @@
             <?endif;?>
         <?endforeach;?>
 </select>
-<script src = "/proga/js/main.js"> </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(function(){
+    $('#lang').change(function(){
+        window.location = '/language/change?lang=' + $(this).val();
+    });
+});
+ </script>
