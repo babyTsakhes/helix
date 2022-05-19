@@ -9393,3 +9393,79 @@ Stack trace:
 ========================================
 [2022-05-19 21:04:49]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
 ========================================
+[2022-05-19 21:09:21]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-19 21:09:21]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-19 21:09:30]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-19 21:09:30]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-19 21:09:30]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-19 21:09:30]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-19 21:09:30]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-19 21:09:36]  Текст ошибки: <br>Not found view <b>D:\OpenServer\domains\framework/app/views/admin/Main/class.php</b> | Файл: D:\OpenServer\domains\framework\vendor\fw\core\base\View.php | Строка: 56
+========================================
+[2022-05-19 21:09:38]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-19 21:09:38]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-19 21:09:38]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-19 21:09:38]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-19 21:09:38]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-19 21:22:22]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-19 21:23:25]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-19 21:23:31]  Текст ошибки: Контроллер <b>app\controllers\CreateController</b> не найден | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2022-05-19 21:23:42]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-19 21:23:48]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-19 21:23:51]  Текст ошибки: Метода<b>createAction</b> у контроллера<b>app\controllers\admin\UserController</b> нет | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 81
+========================================
+[2022-05-19 21:24:09]  Текст ошибки: <br>Not found view <b>D:\OpenServer\domains\framework/app/views/admin/User/create-user.php</b> | Файл: D:\OpenServer\domains\framework\vendor\fw\core\base\View.php | Строка: 56
+========================================
+[2022-05-19 21:47:55]  Текст ошибки: <br>Not found view <b>D:\OpenServer\domains\framework/app/views/admin/User/create-user.php</b> | Файл: D:\OpenServer\domains\framework\vendor\fw\core\base\View.php | Строка: 56
+========================================
+[2022-05-19 21:52:09]  Текст ошибки: syntax error, unexpected '}' | Файл: D:\OpenServer\domains\framework\app\controllers\admin\UserController.php | Строка: 59
+========================================
+[2022-05-19 22:01:24]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-19 22:15:41]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-19 22:15:41]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-19 22:15:41]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-19 22:15:41]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-19 22:15:41]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-19 22:16:31]  Текст ошибки: Expected array, string given. | Файл: D:\OpenServer\domains\framework\vendor\fw\libs\rb.php | Строка: 10187
+========================================
+[2022-05-19 22:16:53]  Текст ошибки: Expected array, string given. | Файл: D:\OpenServer\domains\framework\vendor\fw\libs\rb.php | Строка: 10187
+========================================
+[2022-05-19 22:16:59]  Текст ошибки: Expected array, string given. | Файл: D:\OpenServer\domains\framework\vendor\fw\libs\rb.php | Строка: 10187
+========================================
+[2022-05-19 22:17:10]  Текст ошибки: Expected array, string given. | Файл: D:\OpenServer\domains\framework\vendor\fw\libs\rb.php | Строка: 10187
+========================================
+[2022-05-19 22:17:58]  Текст ошибки: Expected array, string given. | Файл: D:\OpenServer\domains\framework\vendor\fw\libs\rb.php | Строка: 10187
+========================================
+[2022-05-19 22:18:15]  Текст ошибки: Expected array, string given. | Файл: D:\OpenServer\domains\framework\vendor\fw\libs\rb.php | Строка: 10187
+========================================
+[2022-05-19 22:18:27]  Текст ошибки: Expected array, string given. | Файл: D:\OpenServer\domains\framework\vendor\fw\libs\rb.php | Строка: 10187
+========================================
+[2022-05-19 22:23:02]  Текст ошибки: Class 'app\controllers\admin\PDO' not found | Файл: D:\OpenServer\domains\framework\app\controllers\admin\UserController.php | Строка: 77
+========================================
+[2022-05-19 22:23:10]  Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '5 -- keep-cache' at line 1 | Файл: D:\OpenServer\domains\framework\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2022-05-19 22:43:44]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================

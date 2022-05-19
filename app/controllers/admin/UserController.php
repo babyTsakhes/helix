@@ -47,7 +47,47 @@ class UserController extends AppController{
 
     public function allAction(){
         $users = \R::findAll('user');
-        debug($users);
+       // debug($users);
+        $this->set(compact('users'));
+    }
+
+    public function createUserAction(){
+        if(!empty($_POST['login'])){
+            $user = new User;
+            $data = $_POST;
+            $user->load($data);
+            if(!$user->validate($data) || !$user->checkUnique()){
+                $user->getErrors();
+                $_SESSION['formData'] = $data;
+                redirect();
+                
+            }
+            $user->attributes['password'] = password_hash($user->attributes['password'],PASSWORD_DEFAULT);
+            if($user->save('user')){
+                $_SESSION['success'] = "Вы успешно создали нового пользователя с login {$_POST['login']} и паролем {$_POST['password']} !";
+            }else{
+                $_SESSION['error'] = 'Error';
+            }
+            redirect();
+        }  
+    }
+
+    public function readUserAction(){
+        // debug($_GET['id']);
+        $user = \R::findOne('user','id = ?',[$_GET['id']]);
+      //  debug($user,1);
+        $this->set(compact('user'));
+    }
+
+    public function deleteUserAction(){
+        $users = \R::findAll('user');
+       // debug($users);
+        $this->set(compact('users'));
+    }
+
+    public function updateUserAction(){
+        $users = \R::findAll('user');
+       // debug($users);
         $this->set(compact('users'));
     }
 }

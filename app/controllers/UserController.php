@@ -22,7 +22,6 @@ class UserController extends AppController{
             if($user->save('user')){
                 $_SESSION['success'] = 'Вы успешно зарегистрировались!';
             }else{
-                die(13);
                 $_SESSION['error'] = 'Error';
             }
             redirect();
