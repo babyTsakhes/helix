@@ -98,8 +98,8 @@ class UserController extends AppController{
     }
 
     public function deleteUserAction(){
-        $users = \R::findAll('user');
-       // debug($users);
-        $this->set(compact('users'));
+        $user = \R::load('user',$_GET['id']);
+        \R::trash( $user );
+        redirect();
     }
 }
