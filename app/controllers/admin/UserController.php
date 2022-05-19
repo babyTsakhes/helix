@@ -73,19 +73,31 @@ class UserController extends AppController{
     }
 
     public function readUserAction(){
-        // debug($_GET['id']);
         $user = \R::findOne('user','id = ?',[$_GET['id']]);
-      //  debug($user,1);
         $this->set(compact('user'));
     }
 
-    public function deleteUserAction(){
-        $users = \R::findAll('user');
-       // debug($users);
-        $this->set(compact('users'));
+    public function updateUserAction(){
+        if(!(empty($_POST['login']))){
+            $user = \R::load('user',$_POST['id']);
+          //  debug( $user,1);
+            $user->login = $_POST['login'];
+            $user->name = $_POST['name'];
+            $user->password = (!empty($_POST['password'])) ? password_hash($_POST['password'],PASSWORD_DEFAULT) : $user->password;
+            $user->role = $_POST['role'];
+            if(\R::store( $user )){
+                $_SESSION['success'] = "Вы успешно изменили пользователя с login {$_POST['login']} !";
+            }else{
+                $_SESSION['error'] = 'Error';
+            }
+            redirect();
+        }else{
+            $user = \R::findOne('user','id = ?',[$_GET['id']]);
+        $this->set(compact('user'));
+        }
     }
 
-    public function updateUserAction(){
+    public function deleteUserAction(){
         $users = \R::findAll('user');
        // debug($users);
         $this->set(compact('users'));

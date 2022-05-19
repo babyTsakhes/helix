@@ -24,8 +24,8 @@
                     <td><?= $user->email ?></td>
                     <td><?= $user->role ?></td>
                     <td> <a href="/admin/user/read-user?id=<?=$user->id?>" class="btn btn-primary">Show</a>
-                        <a href="/edit.php?id=" class="btn btn-warning">Edit</a>
-                        <a href="/delete.php?id=" class="btn btn-danger">Delete</a>
+                        <a href="/admin/user/update-user?id=<?=$user->id?>" class="btn btn-warning">Edit</a>
+                        <a href="/delete.php?id=<?=$user->id?>" class="btn btn-danger">Delete</a>
                     </td>
                 </tr>
             <? endforeach; ?>
