@@ -49,4 +49,6 @@ class UserController extends AppController{
         redirect('/user/login');
     }
 
+   
+
 }

@@ -38,6 +38,7 @@ use fw\core\base\View;
         <? unset($_SESSION['success'])?>
       </div>
       <?endif;?>
+      <? new fw\widgets\language\Language()?>   
     <p><?=$content?></p>
 
     <!-- Optional JavaScript; choose one of the two! -->

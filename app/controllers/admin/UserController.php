@@ -44,4 +44,10 @@ class UserController extends AppController{
     public function testAction(){
         echo __METHOD__;
     }
+
+    public function allAction(){
+        $users = \R::findAll('user');
+        debug($users);
+        $this->set(compact('users'));
+    }
 }

@@ -19,5 +19,8 @@ return [
     'Admin'=>'Admin',
     'Signup'=>'Signup',
     'Logout'=>'Logout',
-    'Starter Pages'=>'Starter Pages'
+    'Starter Pages'=>'Starter Pages',
+    'Home'=>'Home',
+    'Search'=>'Search',
+    ''
 ];

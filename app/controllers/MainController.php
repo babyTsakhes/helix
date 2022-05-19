@@ -16,7 +16,7 @@ use Valitron\Validator as V;
 class MainController extends AppController
 {
 
-    public $layout = 'proga';
+    public $layout = 'default';
 
     public function indexAction()
     {

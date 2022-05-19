@@ -10,10 +10,10 @@
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="index3.html" class="nav-link">Home</a>
+        <a href="/" class="nav-link"><?__('Home')?></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Contact</a>
+        <a href="#" class="nav-link"><?__('Contact')?></a>
       </li>
     </ul>
 
@@ -150,12 +150,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Starter Page</h1>
+            <h1 class="m-0"><?__('Starter Pages')?></h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Starter Page</li>
+              <li class="breadcrumb-item"><a href="/"><?__('Home')?></a></li>
+              <li class="breadcrumb-item active"><?__('Starter Pages')?></li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -190,7 +190,7 @@
                   Some quick example text to build on the card title and make up the bulk of the card's
                   content.
                 </p>
-                <a href="#" class="card-link">Card link</a>
+                <a href="/admin/main/class" class="card-link">Card link11</a>
                 <a href="#" class="card-link">Another link</a>
               </div>
             </div><!-- /.card -->
