@@ -8,7 +8,8 @@ class User extends Model{
         'password'=>'',
         'email'=>'',
         'name'=>'',
-        'role'=>'user'
+        'role'=>'user',
+        'isDelete'=>''
     ];
 
     public $rules = [

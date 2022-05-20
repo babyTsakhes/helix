@@ -5,12 +5,14 @@ namespace app\controllers\admin;
 use app\models\User;
 use fw\core\base\View;
 
-class UserController extends AppController{
+class UserController extends AppController
+{
     public $layout = 'default';
-    public function indexAction(){
+    public function indexAction()
+    {
         debug($this->route);
-        View::setMeta('Admin','admin panel','admin page');
-      /*   $test = "Testovaya ";
+        View::setMeta('Admin', 'admin panel', 'admin page');
+        /*   $test = "Testovaya ";
         $data = [
             'test',
             2
@@ -22,84 +24,104 @@ class UserController extends AppController{
         echo __METHOD__; */
     }
 
-    public function loginAction(){
-   //     debug($_POST,1);
-        if(!empty($_POST)){
+    public function loginAction()
+    {
+        //     debug($_POST,1);
+        if (!empty($_POST)) {
             $user = new User;
             (var_dump($user->login(true)));
-            if(!$user->login(true)){
+            if (!$user->login(true)) {
                 $_SESSION['error'] = 'Логин пароль введены неверно';
-            }else{
-                if(User::isAdmin()){
+            } else {
+                if (User::isAdmin()) {
                     redirect('/admin/');
-                }else{
+                } else {
                     redirect();
                 }
             }
-           
         }
         $this->layout = 'login';
     }
 
-    public function testAction(){
+    public function testAction()
+    {
         echo __METHOD__;
     }
 
-    public function allAction(){
+    public function allAction()
+    {
         $users = \R::findAll('user');
-       // debug($users);
+        //    debug($users[1]->deleted);
         $this->set(compact('users'));
     }
 
-    public function createUserAction(){
-        if(!empty($_POST['login'])){
+    public function createUserAction()
+    {
+        if (!empty($_POST['login'])) {
             $user = new User;
             $data = $_POST;
             $user->load($data);
-            if(!$user->validate($data) || !$user->checkUnique()){
+            if (!$user->validate($data) || !$user->checkUnique()) {
                 $user->getErrors();
                 $_SESSION['formData'] = $data;
                 redirect();
-                
             }
-            $user->attributes['password'] = password_hash($user->attributes['password'],PASSWORD_DEFAULT);
-            if($user->save('user')){
+            $user->attributes['password'] = password_hash($user->attributes['password'], PASSWORD_DEFAULT);
+            if ($user->save('user')) {
                 $_SESSION['success'] = "Вы успешно создали нового пользователя с login {$_POST['login']} и паролем {$_POST['password']} !";
-            }else{
+            } else {
                 $_SESSION['error'] = 'Error';
             }
             redirect();
-        }  
+        }
     }
 
-    public function readUserAction(){
-        $user = \R::findOne('user','id = ?',[$_GET['id']]);
+    public function readUserAction()
+    {
+        $user = \R::findOne('user', 'id = ?', [$_GET['id']]);
         $this->set(compact('user'));
     }
 
-    public function updateUserAction(){
-        if(!(empty($_POST['login']))){
-            $user = \R::load('user',$_POST['id']);
-          //  debug( $user,1);
+    public function updateUserAction()
+    {
+        if (!(empty($_POST['login']))) {
+            $user = \R::load('user', $_POST['id']);
+            //  debug( $user,1);
             $user->login = $_POST['login'];
             $user->name = $_POST['name'];
-            $user->password = (!empty($_POST['password'])) ? password_hash($_POST['password'],PASSWORD_DEFAULT) : $user->password;
+            $user->password = (!empty($_POST['password'])) ? password_hash($_POST['password'], PASSWORD_DEFAULT) : $user->password;
             $user->role = $_POST['role'];
-            if(\R::store( $user )){
+            $user->deleted = $_POST['deleted'];
+            $user->comment = $_POST['comment'];
+            if (\R::store($user)) {
                 $_SESSION['success'] = "Вы успешно изменили пользователя с login {$_POST['login']} !";
-            }else{
+            } else {
+                $_SESSION['error'] = 'Error';
+            }
+            redirect();
+        } else {
+            $user = \R::findOne('user', 'id = ?', [$_GET['id']]);
+            $this->set(compact('user'));
+        }
+    }
+
+    public function deleteUserAction()
+    {
+        $user = \R::load('user', $_GET['id']);
+        if (!(empty($_POST['comment']))) {
+            $user->deleted = '1';
+            $user->comment = $_POST['comment'];
+            if (\R::store($user)) {
+                $_SESSION['success'] = "Вы успешно мягко удалили пользователя с login {$user->login} !";
+            } else {
                 $_SESSION['error'] = 'Error';
             }
             redirect();
         }else{
-            $user = \R::findOne('user','id = ?',[$_GET['id']]);
-        $this->set(compact('user'));
+            $this->set(compact('user'));
         }
-    }
+       
 
-    public function deleteUserAction(){
-        $user = \R::load('user',$_GET['id']);
-        \R::trash( $user );
-        redirect();
+        //redirect();
     }
 }
