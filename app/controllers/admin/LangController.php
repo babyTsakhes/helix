@@ -7,6 +7,7 @@ use fw\core\base\Lang;
 class LangController extends AppController{
 
     public $layout = 'default';
+    
     public function allAction(){
         $lang_layout = APP . "/langs/en.php";
         $words = include $lang_layout;

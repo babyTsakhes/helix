@@ -9825,3 +9825,93 @@ Stack trace:
 ========================================
 [2022-05-20 12:36:31]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
 ========================================
+[2022-05-20 12:56:33]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 12:56:33]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 12:56:33]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 12:56:33]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 12:56:33]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 12:56:39]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 12:56:39]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 12:56:39]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 12:56:39]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 12:56:39]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 13:04:00]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 13:04:00]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 13:04:00]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 13:04:00]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 13:04:00]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 13:04:02]  Текст ошибки: <br>Not found view <b>D:\OpenServer\domains\framework/app/views/admin/Lang/index.php</b> | Файл: D:\OpenServer\domains\framework\vendor\fw\core\base\View.php | Строка: 56
+========================================
+[2022-05-20 14:59:34]  Текст ошибки: Метода<b>allAction</b> у контроллера<b>app\controllers\admin\LangController</b> нет | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 81
+========================================
+[2022-05-20 14:59:36]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 15:58:33]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:20:51]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:20:51]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:20:51]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:20:51]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:20:51]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:24:18]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:24:18]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:24:18]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:24:18]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:24:18]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:24:22]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:24:22]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:24:22]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:24:22]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:24:22]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:25:56]  Текст ошибки: Метода<b>indexAction</b> у контроллера<b>app\controllers\admin\LangController</b> нет | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 81
+========================================
+[2022-05-20 18:25:59]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:25:59]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:25:59]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:25:59]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:25:59]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:26:53]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:26:53]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:26:53]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:26:53]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2022-05-20 18:26:53]  Текст ошибки: Страница не найдена | Файл: D:\OpenServer\domains\framework\vendor\fw\core\Router.php | Строка: 89
+========================================

@@ -1,7 +1,7 @@
 <?php
 
 return array (
-  'House' => 'Houseафываыва',
+  'House' => 'House',
   'Renovated' => 'Renovated',
   'Barn_House' => 'Barn House',
   'Brick_House' => 'Brick House',
@@ -20,7 +20,7 @@ return array (
   'Signup' => 'Signup',
   'Logout' => 'Logout',
   'Starter_Pages' => 'Starter Pages',
-  'Home' => 'Home12123',
+  'Home' => 'HomeHome',
   'Search' => 'Search',
 );
 ?>
