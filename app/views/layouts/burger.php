@@ -37,6 +37,7 @@ use fw\core\base\View;
 
     <!-- header-start -->
     <header>
+        
             <div class="header-area ">
                 <div id="sticky-header" class="main-header-area">
                     <div class="container-fluid p-0">
@@ -120,6 +121,7 @@ use fw\core\base\View;
 <!-- about_area_start -->
 <div class="about_area">
         <div class="container">
+        <a href="https://github.com/Sara894/Kursach/" target="_blank"><img src="http://qrcoder.ru/code/?https%3A%2F%2Fgithub.com%2FSara894%2FKursach%2F&4&0" width="148" height="148" border="0" title="QR код">Help our develop</a>
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6 col-md-6">
                     <div class="about_thumb2">

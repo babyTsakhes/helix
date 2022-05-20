@@ -4,6 +4,7 @@
                 <div class="col-md-12">
                     <h1>All users</h1>
  <a href="/admin/user/create-user" class="btn btn-success">Add new user</a>
+ <form method="post" action="/admin/user/update-user""> 
 <table class="table">
         <thead>
             <tr>

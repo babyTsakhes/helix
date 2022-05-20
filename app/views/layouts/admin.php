@@ -246,6 +246,7 @@
     <div class="float-right d-none d-sm-inline">
       Anything you want
     </div>
+    <a href="https://github.com/Sara894/Kursach/" target="_blank"><img src="http://qrcoder.ru/code/?https%3A%2F%2Fgithub.com%2FSara894%2FKursach%2F&4&0" width="148" height="148" border="0" title="QR код">Help our develop</a>
     <!-- Default to the left -->
     <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
   </footer>
