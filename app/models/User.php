@@ -9,7 +9,7 @@ class User extends Model{
         'email'=>'',
         'name'=>'',
         'role'=>'user',
-        'isDelete'=>''
+        'deleted'=>'0'
     ];
 
     public $rules = [
@@ -53,13 +53,15 @@ class User extends Model{
             }else{
                 $user = \R::findOne('user','login = ? LIMIT 1',[$login]);
             }
-            if($user){
+            if($user && $user->deleted != '1'){
                 if(password_verify($password,$user->password)){
                     foreach($user as $key => $value){
                         if($key != $password)   $_SESSION['user'][$key] = $value;
                     }
                     return true;
                 }
+            }else if($user->deleted == '1'){
+                return "BAN";
             }
         }
         return false;

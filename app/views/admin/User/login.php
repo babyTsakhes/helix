@@ -3,7 +3,7 @@
       <p class="login-box-msg">Sign in to start your session))</p>
       <div class="row">
       <?if(isset($_SESSION['error'])):?>
-        <div class="col-md-3">
+      
             <div class="card bg-danger">
               <div class="card-header">
                 <h3 class="card-title">Danger</h3>
@@ -15,7 +15,7 @@
               <!-- /.card-body -->
             </div>
             <!-- /.card -->
-          </div>
+       
               <?endif;?>
       </div>
       <form action="<?=ADMIN?>/user/login" method="post">

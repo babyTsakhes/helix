@@ -28,11 +28,13 @@ class UserController extends AppController
     {
         //     debug($_POST,1);
         if (!empty($_POST)) {
-            $user = new User;
-            (var_dump($user->login(true)));
+            $user = new User; 
             if (!$user->login(true)) {
                 $_SESSION['error'] = 'Логин пароль введены неверно';
-            } else {
+            }else if($user->login(true) === "BAN"){
+                $_SESSION['error'] = 'Вы забанены.';
+            }
+            else {
                 if (User::isAdmin()) {
                     redirect('/admin/');
                 } else {
