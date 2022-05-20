@@ -11,7 +11,7 @@ class Lang{
         $lang_layout = APP . "/langs/{$code['code']}.php";
         $lang_view = APP . "/langs/{$code['code']}/{$view['controller']}/{$view['action']}.php";
         if(file_exists($lang_layout)){
-            self::$lang_layout = require_once $lang_layout;
+            self::$lang_layout = include $lang_layout;
         }
         if(file_exists($lang_view)){
             self::$lang_view = require_once $lang_view;

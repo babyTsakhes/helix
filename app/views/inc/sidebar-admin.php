@@ -51,9 +51,9 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="/admin/lang/all" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Inactive Page</p>
+                  <p>Мультиязычность</p>
                 </a>
               </li>
             </ul>
