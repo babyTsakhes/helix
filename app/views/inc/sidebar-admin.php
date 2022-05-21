@@ -59,10 +59,10 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="/admin/template/index" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
-                Simple Link
+                Управление шаблонами
                 <span class="right badge badge-danger">New</span>
               </p>
             </a>

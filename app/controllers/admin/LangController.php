@@ -9,7 +9,7 @@ class LangController extends AppController{
     public $layout = 'default';
 
     public function allAction(){
-        $lang_code = "en";
+        $lang_code = "ru";
         if(!empty($_POST['lang_code'])){
             $lang_code = $_POST['lang_code'];
         }
