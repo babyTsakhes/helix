@@ -16,6 +16,8 @@ class LangController extends AppController{
         
         $lang_layout = APP . "/langs/$lang_code.php";
         $words = include $lang_layout;
+      //  echo $lang_code;
+      //  debug($words,1);
         $this->set(compact('words'));
     }
 

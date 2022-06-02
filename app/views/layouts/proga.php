@@ -45,13 +45,13 @@ use fw\core\base\View;
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding"><?__('Summer House')?></div>
+        <div class="w3-display-topleft w3-black w3-padding"><?__('Summer_House')?></div>
         <img src="https://www.w3schools.com/w3images/house5.jpg" alt="House" style="width:100%">
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding"><?__('Brick House')?></div>
+        <div class="w3-display-topleft w3-black w3-padding"><?__('Brick_House')?></div>
         <img src="https://www.w3schools.com/w3images/house2.jpg" alt="House" style="width:100%">
       </div>
     </div>
@@ -63,7 +63,7 @@ use fw\core\base\View;
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding"><?__('Barn House')?></div>
+        <div class="w3-display-topleft w3-black w3-padding"><?__('Barn_House')?></div>
         <img src="https://www.w3schools.com/w3images/house4.jpg" alt="House" style="width:100%">
       </div>
     </div>
@@ -74,7 +74,7 @@ use fw\core\base\View;
   <!-- About Section -->
   <div class="w3-container w3-padding-32" id="about">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"><?__('About')?></h3>
-    <p><?__('big text')?>
+    <p><?__('big_text')?>
     </p>
   </div>
 
@@ -93,14 +93,14 @@ use fw\core\base\View;
   <!-- Contact Section -->
   <div class="w3-container w3-padding-32" id="contact">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16"><?__('Contact')?></h3>
-    <p><?=__('Lets get')?></p>
+    <p><?=__('Lets_get')?></p>
     <form action="https://www.w3schools.com/action_page.php" target="_blank">
       <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
       <button class="w3-button w3-black w3-section" type="submit">
-        <i class="fa fa-paper-plane"></i> <?=__('send message')?>
+        <i class="fa fa-paper-plane"></i> <?=__('send_message')?>
       </button>
     </form>
   </div>

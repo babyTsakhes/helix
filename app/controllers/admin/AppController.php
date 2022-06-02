@@ -14,10 +14,9 @@ class AppController extends Controller{
     public function __construct($route){
         parent::__construct($route);
         new ControllersAppController($route);
-       // debug(ControllersAppController::$langs,1);
         App::$app->setProperty('langs',ControllersAppController::$langs);
         App::$app->setProperty('lang',Language::getLanguage(App::$app->getProperty('langs')));
-
+        //unset($_SESSION);
         if( !User::isAdmin() && $route['action'] != 'login'){
            redirect(ADMIN . '/user/login');
         }

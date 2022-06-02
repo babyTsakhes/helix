@@ -7,7 +7,7 @@
                     <label for="role">Выберите файл какого языка вы хотите редактировать</label>
                     <select name="lang_code" id="lang_code" class="form-select" aria-label="Default select example">
                         <option value="en" >en</option>
-                        <option value="ru" >ru</option>
+                        <option value="ru" selected>ru</option>
                     </select>
             </div>
             <button type="submit" class="btn btn-success">Submit</button>

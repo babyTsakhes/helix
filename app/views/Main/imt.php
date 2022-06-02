@@ -1,4 +1,5 @@
 <main role="main" class="container">
+    <?//debug($_SESSION,1);?>
 <?if(!empty($_SESSION['errorIMT'])):?>
     <?=$_SESSION['errorIMT']?>
     <?unset($_SESSION['errorIMT'])?>
@@ -7,7 +8,7 @@
         <div class="card-body d-flex flex-column align-items-start">
             <strong class="d-inline-block mb-2 text-primary"><? //=$username?></strong>
             <h3 class="mb-0">
-                <p class="text-dark">Ваш ИМТ равен <?= $imt ?></p>
+                <p class="text-dark"><?__('Raven')?> <?= $imt ?></p>
             </h3>
             <div class="mb-1 text-muted"><?= date("Y-m-d") ?></div>
             <h4 class="mb-3">

@@ -20,7 +20,8 @@ class MainController extends AppController
 
     public function indexAction()
     {
-        $this->layout = ($_SESSION['main_temp_code']) ? $_SESSION['main_temp_code'] :  'proga';
+        //unset($_SESSION);
+        $this->layout = (!empty($_SESSION['main_temp_code'])) ? $_SESSION['main_temp_code'] :  'proga';
         //debug($_SESSION,1);
         $lang = App::$app->getProperty('lang')['code'];
         $workers = \R::findAll('workers', 'lang_code = ?', [$lang]);
@@ -34,7 +35,7 @@ class MainController extends AppController
         $weight = $_POST['weight'];
         $height = $_POST['height'] / 100;
         $validator = new V(['weight' => $weight, 'height' => $height]);
-        $validator->rule('numeric', ['weight', 'height']);
+        $validator->rule('required','numeric', ['weight', 'height']);
         if ($validator->validate()) {
             $imt = round($weight / ($height * $height), 2);
             if ($imt <= 16.0) {
