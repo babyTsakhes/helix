@@ -34,8 +34,9 @@ class MainController extends AppController
         $this->layout = 'default';
         $weight = $_POST['weight'];
         $height = $_POST['height'] / 100;
-        $validator = new V(['weight' => $weight, 'height' => $height]);
-        $validator->rule('required','numeric', ['weight', 'height']);
+        if(!empty($weight) && !empty($height)){
+            $validator = new V(['weight' => $weight, 'height' => $height]);
+        $validator->rule('numeric', ['weight', 'height']); 
         if ($validator->validate()) {
             $imt = round($weight / ($height * $height), 2);
             if ($imt <= 16.0) {
@@ -57,6 +58,9 @@ class MainController extends AppController
             $this->set(compact('imt', 'message', 'user'));
         } else {
             $_SESSION['errorIMT'] = "Вы должны записать числовые значения в поля Вес и Рост.";
+        }
+        }else{
+            $_SESSION['errorIMT'] = "Вы должны записать числовые значения в поля Вес и Рост. Обя поля обязательны.";
         }
     }
 
