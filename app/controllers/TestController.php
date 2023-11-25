@@ -23,7 +23,9 @@ class TestController extends AppController
       
         //unset($_SESSION);
         if(!empty($_SESSION['user'])){
-            debug($_SESSION);
+           $user_name = $_SESSION['user']['name'];
+           $tests = \R::findAll('tests');
+           $this->set(compact('user_name','tests'));
          
         }
         else{
