@@ -7,7 +7,7 @@
     <h3 class="display-10 fw-bold text-body-emphasis"> <p>Пройдите "<?=$test['title']?>" .</p></h1>
     </div>
   </div>
-            <form action="/test/onetest?id=<?=$test['id']?>" method="post">
+            <form action="/test/result?id=<?=$test['id']?>" method="post">
                 <input type="hidden" name="q" value="0">
                 <?foreach ($questions as $q):?>
                 <div class="row justify-content-center">

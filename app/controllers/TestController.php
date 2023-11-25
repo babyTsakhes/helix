@@ -40,24 +40,11 @@ class TestController extends AppController
             $test = \R::findOne('tests',"id={$_GET['id']}");
            // debug($_SESSION);
            $username = $_SESSION['user']['name'];
-           $userid = $_SESSION['user']['id'];
-            if(!empty($_POST)){
-                if($_POST['q'] == "0"){
-                    $sum = 0;
-                    foreach($_POST as $q){
-                        $sum+=$q;
-                    }
-
-                    $testid = $test['id'];
-                  
-                   // debug("UPDATE user SET result$testid='$sum' WHERE id = '$userid'",1);
-                    \R::exec( "UPDATE user SET result$testid='$sum' WHERE id = '$userid'");
-                   }
-            }
+         
           
           
             $questions = \R::findAll('questions',"test_id = {$test['id']}");
-          $questionCount = \R::count('questions',"test_id = {$test['id']}");
+            $questionCount = \R::count('questions',"test_id = {$test['id']}");
             $answers = \R::findAll('answers', "test_id = {$test['id']}");
             $this->set(compact(
                 'test',
@@ -73,18 +60,33 @@ class TestController extends AppController
       
     }
    
-    public function allAction()
-    {
-        if ($this->isAjax()) {
-            $model = new Main;
-            /*         $data = ['answer' => 'Ответ с  сервера', 'code'=>200];
-            echo json_encode($data); */
 
-            $post = \R::findOne('posts', "id = {$_POST['id']}");
-            $this->loadView('_test', compact('post'));
-            //  debug($post);
-            die;
+    public function resultAction()
+    {
+       // debug("djfjkds",1);
+       $test = \R::findOne('tests',"id={$_GET['id']}");
+       $testid = $test['id'];
+        $userid = $_SESSION['user']['id'];
+        $username = $_SESSION['user']['name'];
+        if(!empty($_POST)){
+            if($_POST['q'] == "0"){
+                $sum = 0;
+                foreach($_POST as $q){
+                    $sum+=$q;
+                }
+                
+                \R::exec( "UPDATE user SET result$testid='$sum' WHERE id = '$userid'");
+               }
         }
-        echo 222;
+
+       {
+        $result = \R::findAll('results', "test_id = {$testid} AND score_min < {$sum} AND score_max > {$sum}");
+       // debug($result);
+        $this->set(compact(
+            'result',
+            'username'
+        ));
     }
+}
+
 }
