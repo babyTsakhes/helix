@@ -3,10 +3,10 @@
   
 <div class="container">
     <div class="px-4 py-5 my-5 text-center">
-    <h1 class="display-5 fw-bold text-body-emphasis"> <p><?=$test['title']?></p></h1>
+    <h3 class="display-8 fw-bold text-body-emphasis"> <p>Добро пожаловать, <?=$username?>!</p></h3>
+    <h3 class="display-10 fw-bold text-body-emphasis"> <p>Пройдите "<?=$test['title']?>" .</p></h1>
     </div>
   </div>
-      
             <form action="/test/onetest?id=<?=$test['id']?>" method="post">
                 <input type="hidden" name="q" value="0">
                 <?foreach ($questions as $q):?>
@@ -43,4 +43,4 @@
  
            
        
-    </div>
+    </div> 

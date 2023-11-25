@@ -35,25 +35,42 @@ class TestController extends AppController
 
 
     public function onetestAction(){
-        $test = \R::findOne('tests',"id={$_GET['id']}");
-       if($_POST['q'] == "0"){
-        $sum = 0;
-        foreach($_POST as $q){
-            $sum+=$q;
+       
+        if(!empty($_SESSION['user'])){
+            $test = \R::findOne('tests',"id={$_GET['id']}");
+           // debug($_SESSION);
+           $username = $_SESSION['user']['name'];
+           $userid = $_SESSION['user']['id'];
+            if(!empty($_POST)){
+                if($_POST['q'] == "0"){
+                    $sum = 0;
+                    foreach($_POST as $q){
+                        $sum+=$q;
+                    }
+
+                    $testid = $test['id'];
+                  
+                   // debug("UPDATE user SET result$testid='$sum' WHERE id = '$userid'",1);
+                    \R::exec( "UPDATE user SET result$testid='$sum' WHERE id = '$userid'");
+                   }
+            }
+          
+          
+            $questions = \R::findAll('questions',"test_id = {$test['id']}");
+          $questionCount = \R::count('questions',"test_id = {$test['id']}");
+            $answers = \R::findAll('answers', "test_id = {$test['id']}");
+            $this->set(compact(
+                'test',
+                'questions',
+                'answers',
+                'questionCount',
+                'username'
+            ));
         }
-       }
+        else{
+            redirect("");
+        }
       
-        $questions = \R::findAll('questions',"test_id = {$test['id']}");
-    //    debug($questions["id"],1);
-      $questionCount = \R::count('questions',"test_id = {$test['id']}");
-        $answers = \R::findAll('answers', "test_id = {$test['id']}");
-      //  debug($answers,1);
-        $this->set(compact(
-            'test',
-            'questions',
-            'answers',
-            'questionCount'
-        ));
     }
    
     public function allAction()

@@ -9,7 +9,8 @@ class User extends Model{
         'email'=>'',
         'name'=>'',
         'role'=>'user',
-        'deleted'=>'0'
+        'deleted'=>'0',
+        'result1'=>''
     ];
 
     public $rules = [
