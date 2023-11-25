@@ -33097,3 +33097,119 @@ Stack trace:
 ========================================
 [2023-11-25 12:16:51]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
 ========================================
+[2023-11-25 12:22:10]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 12:22:27]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 12:22:35]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 12:22:41]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 12:22:56]  Текст ошибки: syntax error, unexpected 'else' (T_ELSE), expecting end of file | Файл: D:\OSPanel\domains\helix\app\views\test\index.php | Строка: 27
+========================================
+[2023-11-25 12:23:10]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 12:29:53]  Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.posts' doesn't exist | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-25 12:30:02]  Текст ошибки: syntax error, unexpected '$tests' (T_VARIABLE), expecting '(' | Файл: D:\OSPanel\domains\helix\app\views\test\index.php | Строка: 10
+========================================
+[2023-11-25 12:33:11]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 12:33:14]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 12:34:19]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 12:35:35]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 12:35:39]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 12:35:52]  Текст ошибки: Контроллер <b>app\controllers\OnetestController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-25 12:36:03]  Текст ошибки: Метода<b>onetestAction</b> у контроллера<b>app\controllers\TestController</b> нет | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 81
+========================================
+[2023-11-25 12:36:35]  Текст ошибки: <br>Not found view <b>D:\OSPanel\domains\helix/app/views/Test/onetest.php</b> | Файл: D:\OSPanel\domains\helix\vendor\fw\core\base\View.php | Строка: 56
+========================================
+[2023-11-25 12:40:06]  Текст ошибки: syntax error, unexpected 'endif' (T_ENDIF), expecting end of file | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 53
+========================================
+[2023-11-25 12:41:50]  Текст ошибки: syntax error, unexpected '?>' | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 21
+========================================
+[2023-11-25 12:41:51]  Текст ошибки: syntax error, unexpected '?>' | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 21
+========================================
+[2023-11-25 12:47:28]  Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-25 12:48:22]  Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-25 12:48:44]  Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-25 12:49:27]  Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-25 12:51:38]  Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-25 12:51:50]  Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-25 13:11:46]  Текст ошибки: syntax error, unexpected '$questions' (T_VARIABLE), expecting '(' | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 16
+========================================
+[2023-11-25 13:12:03]  Текст ошибки: syntax error, unexpected '=' | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 24
+========================================
+[2023-11-25 13:12:29]  Текст ошибки: syntax error, unexpected end of file | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 55
+========================================
+[2023-11-25 13:12:30]  Текст ошибки: syntax error, unexpected end of file | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 55
+========================================
+[2023-11-25 13:12:30]  Текст ошибки: syntax error, unexpected end of file | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 55
+========================================
+[2023-11-25 13:12:31]  Текст ошибки: syntax error, unexpected end of file | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 55
+========================================
+[2023-11-25 13:13:00]  Текст ошибки: syntax error, unexpected end of file | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 55
+========================================
+[2023-11-25 13:19:32]  Текст ошибки: syntax error, unexpected end of file | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 56
+========================================
+[2023-11-25 13:19:43]  Текст ошибки: syntax error, unexpected end of file | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 56
+========================================
+[2023-11-25 13:20:07]  Текст ошибки: syntax error, unexpected end of file | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 56
+========================================
+[2023-11-25 13:21:01]  Текст ошибки: syntax error, unexpected end of file | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 56
+========================================
+[2023-11-25 13:21:02]  Текст ошибки: syntax error, unexpected end of file | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 56
+========================================
+[2023-11-25 13:21:32]  Текст ошибки: syntax error, unexpected end of file | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 41
+========================================
+[2023-11-25 13:22:10]  Текст ошибки: syntax error, unexpected end of file | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 42
+========================================
+[2023-11-25 13:22:10]  Текст ошибки: syntax error, unexpected end of file | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 42
+========================================
+[2023-11-25 13:22:20]  Текст ошибки: syntax error, unexpected end of file | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 37
+========================================
+[2023-11-25 13:22:48]  Текст ошибки: syntax error, unexpected end of file | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 37
+========================================
+[2023-11-25 13:22:49]  Текст ошибки: syntax error, unexpected end of file | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 37
+========================================
+[2023-11-25 13:23:35]  Текст ошибки: syntax error, unexpected 'as' (T_AS) | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 2
+========================================
+[2023-11-25 13:23:36]  Текст ошибки: syntax error, unexpected 'as' (T_AS) | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 2
+========================================
+[2023-11-25 13:23:36]  Текст ошибки: syntax error, unexpected 'as' (T_AS) | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 2
+========================================
+[2023-11-25 13:23:49]  Текст ошибки: syntax error, unexpected 'as' (T_AS), expecting ',' or ')' | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 2
+========================================
+[2023-11-25 13:27:18]  Текст ошибки: syntax error, unexpected '}', expecting end of file | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 45
+========================================
+[2023-11-25 13:41:13]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 13:42:35]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 13:45:11]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 13:46:35]  Текст ошибки: Контроллер <b>app\controllers\OnetestController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-25 13:47:03]  Текст ошибки: Контроллер <b>app\controllers\OnetestController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-25 13:47:08]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 13:47:27]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 14:10:05]  Текст ошибки: syntax error, unexpected end of file | Файл: D:\OSPanel\domains\helix\app\views\test\onetest.php | Строка: 50
+========================================
+[2023-11-25 14:47:28]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 14:50:26]  Текст ошибки: syntax error, unexpected '=' | Файл: D:\OSPanel\domains\helix\app\controllers\TestController.php | Строка: 43
+========================================

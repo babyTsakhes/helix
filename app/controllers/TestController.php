@@ -33,6 +33,28 @@ class TestController extends AppController
         }
     }
 
+
+    public function onetestAction(){
+        $test = \R::findOne('tests',"id={$_GET['id']}");
+       if($_POST['q'] == "0"){
+        $sum = 0;
+        foreach($_POST as $q){
+            $sum+=$q;
+        }
+       }
+      
+        $questions = \R::findAll('questions',"test_id = {$test['id']}");
+    //    debug($questions["id"],1);
+      $questionCount = \R::count('questions',"test_id = {$test['id']}");
+        $answers = \R::findAll('answers', "test_id = {$test['id']}");
+      //  debug($answers,1);
+        $this->set(compact(
+            'test',
+            'questions',
+            'answers',
+            'questionCount'
+        ));
+    }
    
     public function allAction()
     {

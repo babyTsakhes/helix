@@ -8,7 +8,7 @@
    <div>
     <ul class="list">
    <?foreach ($tests as $test):?>
-        <li><a href="<?=$test['id']?>"><?=$test['title']?></a></li>
+        <li><a href="onetest/?id=<?=$test['id']?>"><?=$test['title']?></a></li>
     <?endforeach?>
     <ul>
         </div>
