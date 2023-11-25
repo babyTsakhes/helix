@@ -62,7 +62,6 @@ class TestController extends AppController
    
 
     public function result3Test($arr, $userid){
-        debug($arr);
         for($i = 41; $i <= 70; $i++){
             $sum1 = 0;
             $sum2 = 0;
@@ -73,8 +72,6 @@ class TestController extends AppController
            
             if($i == 41 || $i == 42 || $i == 44 || $i == 57 || $i == 59 || $i == 65){
                 $sum1 += $arr[$i];
-                echo $i."<br>";
-                debug($sum1);
                 \R::exec( "UPDATE user SET result3_1='$sum1' WHERE id = '$userid'");
             }
             else if($i == 43 || $i == 47 || $i == 48 || $i == 50 || $i == 58 || $i == 70){
@@ -93,9 +90,6 @@ class TestController extends AppController
                 $sum5 += $arr[$i];//12, 15, 24, 26, 27, 29
                 \R::exec( "UPDATE user SET result3_5='$sum5' WHERE id = '$userid'");
             }
-           
-
-          //  debug($sum1,1);
         }
        
     }
@@ -112,13 +106,10 @@ class TestController extends AppController
                 foreach($_POST as $q){
                     $sum+=$q;
                 }
-                debug($_POST);
-                debug($sum);
-                debug($testid);
+             
                 \R::exec( "UPDATE user SET result$testid='$sum' WHERE id = '$userid'");
 
                 if($testid == "3"){
-                    debug(123);
                     $this->result3Test($_POST, $userid);
                 }
                }
