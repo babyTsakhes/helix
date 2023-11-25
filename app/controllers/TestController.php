@@ -62,12 +62,14 @@ class TestController extends AppController
    
 
     public function result3Test($arr, $userid){
+        $sum1 = 0;
+        $sum2 = 0;
+        $sum3 = 0;
+        $sum4 = 0;
+        $sum5 = 0;
+        $res=[];
         for($i = 41; $i <= 70; $i++){
-            $sum1 = 0;
-            $sum2 = 0;
-            $sum3 = 0;
-            $sum4 = 0;
-            $sum5 = 0;
+           
            
            
             if($i == 41 || $i == 42 || $i == 44 || $i == 57 || $i == 59 || $i == 65){
@@ -91,11 +93,15 @@ class TestController extends AppController
                 \R::exec( "UPDATE user SET result3_5='$sum5' WHERE id = '$userid'");
             }
         }
+        $res = [$sum1,$sum2,$sum3, $sum4,$sum5];
+        return $res;
        
     }
     public function resultAction()
     {
        // debug("djfjkds",1);
+       $res = [];
+       $titles = [];
        $test = \R::findOne('tests',"id={$_GET['id']}");
        $testid = $test['id'];
         $userid = $_SESSION['user']['id'];
@@ -110,7 +116,8 @@ class TestController extends AppController
                 \R::exec( "UPDATE user SET result$testid='$sum' WHERE id = '$userid'");
 
                 if($testid == "3"){
-                    $this->result3Test($_POST, $userid);
+                    $res = $this->result3Test($_POST, $userid);
+                    $titles = ['Эмоциональная осведомленность','Управление своими эмоциями','Самомотивация','Эмпатия','Распознавание эмоций других людей'];
                 }
                }
 
@@ -122,7 +129,9 @@ class TestController extends AppController
        // debug($result);
         $this->set(compact(
             'result',
-            'username'
+            'username',
+            'res',
+            'titles'
         ));
     }
 }

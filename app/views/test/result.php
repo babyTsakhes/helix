@@ -6,9 +6,27 @@
                         </div>
                         <div class="card-body">
                             <div class="result-print">
-                                <?php foreach($result as $res ) echo $res['result']; ?>
+                                <?php foreach($result as $r ) echo $r['result']; ?>
                             </div>
                         </div>
+                        <?if($res):?>
+                            <?for($i = 0; $i < 5; $i++):?>
+                            <div class="card-header">
+                            <h7><?=$titles[$i]?></h7>
+                        </div>
+                        <div class="card-body">
+                            <div class="result-print">
+                                <?if($res[$i]>= 14):?>
+                                    Высокий
+                                <?elseif($res[$i]<14 && $res[$i]>= 8):?>
+                                    Средний
+                                <?else:?>
+                                    Низкий
+                                <?endif;?>
+                            </div>
+                        </div>
+                        <?endfor;?>
+                        <?endif;?>
                     </div>
                 </div>
             </div>

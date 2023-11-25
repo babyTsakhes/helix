@@ -33295,3 +33295,7 @@ Stack trace:
 ========================================
 [2023-11-25 21:09:16]  Текст ошибки: syntax error, unexpected '&' | Файл: D:\OSPanel\domains\helix\app\controllers\TestController.php | Строка: 92
 ========================================
+[2023-11-25 21:25:50]  Текст ошибки: syntax error, unexpected '>=' (T_IS_GREATER_OR_EQUAL) | Файл: D:\OSPanel\domains\helix\app\views\test\result.php | Строка: 19
+========================================
+[2023-11-25 21:26:04]  Текст ошибки: syntax error, unexpected '>=' (T_IS_GREATER_OR_EQUAL) | Файл: D:\OSPanel\domains\helix\app\views\test\result.php | Строка: 19
+========================================
