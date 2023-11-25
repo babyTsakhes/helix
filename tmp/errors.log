@@ -33035,3 +33035,65 @@ Stack trace:
 ========================================
 [2023-11-25 11:51:51]  Текст ошибки: Контроллер <b>app\controllers\TestController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
 ========================================
+[2023-11-25 11:55:54]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:55:57]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:55:57]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:56:12]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:56:12]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 12:05:25]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 12:05:25]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 12:05:34]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 12:05:34]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 12:05:34]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 12:09:06]  Текст ошибки: Контроллер <b>app\controllers\TestController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-25 12:09:52]  Текст ошибки: Контроллер <b>app\controllers\TestController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-25 12:09:53]  Текст ошибки: Контроллер <b>app\controllers\TestController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-25 12:09:53]  Текст ошибки: Контроллер <b>app\controllers\TestController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-25 12:09:55]  Текст ошибки: Контроллер <b>app\controllers\TestController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-25 12:09:57]  Текст ошибки: Контроллер <b>app\controllers\TestController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-25 12:09:58]  Текст ошибки: Контроллер <b>app\controllers\TestController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-25 12:09:58]  Текст ошибки: Контроллер <b>app\controllers\TestController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-25 12:10:01]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 12:10:01]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 12:10:02]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 12:10:05]  Текст ошибки: Контроллер <b>app\controllers\TestController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-25 12:10:11]  Текст ошибки: Контроллер <b>app\controllers\TestController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-25 12:11:26]  Текст ошибки: Контроллер <b>app\controllers\TestController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-25 12:11:27]  Текст ошибки: Контроллер <b>app\controllers\TestController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-25 12:12:21]  Текст ошибки: <br>Not found view <b>D:\OSPanel\domains\helix/app/views/Test/all.php</b> | Файл: D:\OSPanel\domains\helix\vendor\fw\core\base\View.php | Строка: 56
+========================================
+[2023-11-25 12:13:59]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 12:13:59]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 12:13:59]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 12:14:43]  Текст ошибки: <br>Not found view <b>D:\OSPanel\domains\helix/app/views/Test/index.php</b> | Файл: D:\OSPanel\domains\helix\vendor\fw\core\base\View.php | Строка: 56
+========================================
+[2023-11-25 12:16:51]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================

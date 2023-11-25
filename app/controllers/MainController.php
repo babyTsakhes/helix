@@ -16,18 +16,25 @@ use Valitron\Validator as V;
 class MainController extends AppController
 {
 
-    public $layout =  'proga';
+    public $layout =  'default';
 
     public function indexAction()
     {
         //unset($_SESSION);
-        //debug($_SESSION);
-        $this->layout = (!empty($_SESSION['main_temp_code'])) ? $_SESSION['main_temp_code'] :  'default';
+        
+        if(!empty($_SESSION['user'])){
+            debug($_SESSION);
+            redirect("/test/index");
+        }
+        else{
+            echo 123;
+            $this->layout = (!empty($_SESSION['main_temp_code'])) ? $_SESSION['main_temp_code'] :  'default';
         //debug($_SESSION,1);
         $lang = App::$app->getProperty('lang')['code'];
      //   $workers = \R::findAll('workers', 'lang_code = ?', [$lang]);
         View::setMeta('MAIN PAGE', 'main page of framework', 'framework');
     //    $this->set(compact('workers'));
+        }
     }
 
     public function imtAction()
