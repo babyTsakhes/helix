@@ -33285,3 +33285,13 @@ Stack trace:
 ========================================
 [2023-11-25 16:39:52]  Текст ошибки: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) | Файл: D:\OSPanel\domains\helix\app\controllers\TestController.php | Строка: 91
 ========================================
+[2023-11-25 20:25:46]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'result3' in 'field list' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-25 20:46:35]  Текст ошибки: syntax error, unexpected '++' (T_INC), expecting ')' | Файл: D:\OSPanel\domains\helix\app\controllers\TestController.php | Строка: 65
+========================================
+[2023-11-25 20:46:58]  Текст ошибки: syntax error, unexpected '}' | Файл: D:\OSPanel\domains\helix\app\controllers\TestController.php | Строка: 111
+========================================
+[2023-11-25 20:47:13]  Текст ошибки: Call to undefined function app\controllers\result3Test() | Файл: D:\OSPanel\domains\helix\app\controllers\TestController.php | Строка: 110
+========================================
+[2023-11-25 21:09:16]  Текст ошибки: syntax error, unexpected '&' | Файл: D:\OSPanel\domains\helix\app\controllers\TestController.php | Строка: 92
+========================================

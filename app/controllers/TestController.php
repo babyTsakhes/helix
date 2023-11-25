@@ -61,6 +61,44 @@ class TestController extends AppController
     }
    
 
+    public function result3Test($arr, $userid){
+        debug($arr);
+        for($i = 41; $i <= 70; $i++){
+            $sum1 = 0;
+            $sum2 = 0;
+            $sum3 = 0;
+            $sum4 = 0;
+            $sum5 = 0;
+           
+           
+            if($i == 41 || $i == 42 || $i == 44 || $i == 57 || $i == 59 || $i == 65){
+                $sum1 += $arr[$i];
+                echo $i."<br>";
+                debug($sum1);
+                \R::exec( "UPDATE user SET result3_1='$sum1' WHERE id = '$userid'");
+            }
+            else if($i == 43 || $i == 47 || $i == 48 || $i == 50 || $i == 58 || $i == 70){
+                $sum2 += $arr[$i];
+                \R::exec( "UPDATE user SET result3_2='$sum2' WHERE id = '$userid'");
+            }
+            else if($i == 45 || $i == 46 || $i == 53 || $i == 62 || $i == 54 || $i == 66){
+                $sum3 += $arr[$i];//5, 6, 13, 14, 16, 22
+                \R::exec( "UPDATE user SET result3_3='$sum3' WHERE id = '$userid'");
+            }
+            else if($i == 49 || $i == 51 || $i == 60 || $i == 61 || $i == 63 || $i == 68){
+                $sum4 += $arr[$i];//9, 11, 20, 21, 23, 28
+                \R::exec( "UPDATE user SET result3_4='$sum4' WHERE id = '$userid'");
+            }
+            else if($i == 52 || $i == 55 || $i == 64 || $i == 66 || $i == 67 || $i == 69){
+                $sum5 += $arr[$i];//12, 15, 24, 26, 27, 29
+                \R::exec( "UPDATE user SET result3_5='$sum5' WHERE id = '$userid'");
+            }
+           
+
+          //  debug($sum1,1);
+        }
+       
+    }
     public function resultAction()
     {
        // debug("djfjkds",1);
@@ -74,9 +112,18 @@ class TestController extends AppController
                 foreach($_POST as $q){
                     $sum+=$q;
                 }
-                
+                debug($_POST);
+                debug($sum);
+                debug($testid);
                 \R::exec( "UPDATE user SET result$testid='$sum' WHERE id = '$userid'");
+
+                if($testid == "3"){
+                    debug(123);
+                    $this->result3Test($_POST, $userid);
+                }
                }
+
+            
         }
 
        {
