@@ -4,7 +4,7 @@ namespace app\controllers\admin;
 
 class TemplateController extends AppController{
 
-    public $layout = 'default';
+    public $layout = 'login';
     public function indexAction(){
         $lays = [
             'admin','burger','default','login','main','proga','test'

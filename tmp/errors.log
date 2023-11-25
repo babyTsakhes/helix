@@ -32017,3 +32017,921 @@ Stack trace:
 ========================================
 [2022-06-07 23:12:22]  Текст ошибки: require(): Failed opening required 'D:\OpenServer\domains\framework\public/errors/404.html' (include_path='.') | Файл: D:\OpenServer\domains\framework\vendor\fw\core\ErrorHandler.php | Строка: 59
 ========================================
+[2023-11-14 08:43:28]  Текст ошибки: Could not connect to database (fw). | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 1105
+========================================
+[2023-11-14 08:43:28]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:43:28]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:43:28]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:43:37]  Текст ошибки: Could not connect to database (fw). | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 1105
+========================================
+[2023-11-14 08:43:37]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:43:37]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:43:37]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:44:19]  Текст ошибки: Could not connect to database (fw). | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 1105
+========================================
+[2023-11-14 08:44:19]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:44:19]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:44:19]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:45:06]  Текст ошибки: Could not connect to database (fw). | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 1105
+========================================
+[2023-11-14 08:45:06]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:45:06]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:45:06]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:45:14]  Текст ошибки: Could not connect to database (fw). | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 1105
+========================================
+[2023-11-14 08:45:14]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:45:14]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:45:14]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:45:36]  Текст ошибки: Could not connect to database (fw). | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 1105
+========================================
+[2023-11-14 08:45:36]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:45:36]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:45:36]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:47:46]  Текст ошибки: Could not connect to database (fw). | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 1105
+========================================
+[2023-11-14 08:47:46]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:47:46]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:47:46]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:47:47]  Текст ошибки: Could not connect to database (fw). | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 1105
+========================================
+[2023-11-14 08:47:47]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:47:47]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:47:47]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:47:47]  Текст ошибки: Could not connect to database (fw). | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 1105
+========================================
+[2023-11-14 08:47:47]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:47:47]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:47:47]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:47:47]  Текст ошибки: Could not connect to database (fw). | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 1105
+========================================
+[2023-11-14 08:47:47]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:47:47]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:47:47]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:47:47]  Текст ошибки: Could not connect to database (fw). | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 1105
+========================================
+[2023-11-14 08:47:47]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:47:47]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:47:47]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:47:47]  Текст ошибки: Could not connect to database (fw). | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 1105
+========================================
+[2023-11-14 08:47:47]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:47:47]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:47:47]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:47:48]  Текст ошибки: Could not connect to database (fw). | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 1105
+========================================
+[2023-11-14 08:47:48]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:47:48]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:47:48]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:48:36]  Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.category' doesn't exist | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 08:48:36]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:48:36]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:48:36]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:48:37]  Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.category' doesn't exist | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 08:48:37]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:48:37]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:48:37]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:48:37]  Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.category' doesn't exist | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 08:48:37]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:48:37]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:48:37]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:48:38]  Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.category' doesn't exist | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 08:48:38]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:48:38]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:48:38]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:48:38]  Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.category' doesn't exist | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 08:48:38]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:48:38]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:48:38]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:48:38]  Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.category' doesn't exist | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 08:48:38]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:48:38]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:48:38]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:48:42]  Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.category' doesn't exist | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 08:48:42]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:48:42]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:48:42]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:49:47]  Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.category' doesn't exist | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 08:49:47]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:49:47]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:49:47]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:52:21]  Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.category' doesn't exist | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 08:52:21]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:52:21]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:52:21]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:52:25]  Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.category' doesn't exist | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 08:52:25]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:52:25]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:52:25]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:53:02]  Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.category' doesn't exist | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 08:53:02]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:53:02]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:53:02]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:53:06]  Текст ошибки: Контроллер <b>app\controllers\BurgerController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:53:06]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:53:06]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:53:06]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:53:06]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:53:06]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:53:12]  Текст ошибки: Контроллер <b>app\controllers\BurgerController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:53:12]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:53:12]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:53:12]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:53:12]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:53:12]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:53:19]  Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.category' doesn't exist | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 08:53:19]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:53:19]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:53:19]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:53:33]  Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.category' doesn't exist | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 08:53:33]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:53:33]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:53:33]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:53:38]  Текст ошибки: Контроллер <b>app\controllers\LoginController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:53:38]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:53:38]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:53:38]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:53:38]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:53:38]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:54:25]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:54:25]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:54:25]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:54:25]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:54:26]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:54:26]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:54:53]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:54:53]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:54:53]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:54:54]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:54:54]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:54:54]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:54:54]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:54:54]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:54:54]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:54:54]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:54:54]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:54:54]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:55:33]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:55:33]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:55:33]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:55:33]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:55:33]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:55:33]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:55:34]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:55:34]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:55:34]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:55:34]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:55:34]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:55:34]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:55:57]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:55:57]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:55:57]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:55:58]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:55:58]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:55:58]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:56:10]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:56:10]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:56:10]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:56:10]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:56:10]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:56:10]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:56:11]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:56:11]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:56:11]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:56:11]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:56:11]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:56:11]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:56:11]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:56:11]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:56:11]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:56:11]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:56:11]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:56:11]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:56:30]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:56:30]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:56:31]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:56:31]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:56:31]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:56:31]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:56:32]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:56:32]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:56:32]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:56:32]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:56:32]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:56:32]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:56:32]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:56:32]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:56:32]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:56:32]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:56:32]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:56:32]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:56:33]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:56:33]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:56:33]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:56:33]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:56:33]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:56:33]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:56:33]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:56:33]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:56:33]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:56:33]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:56:33]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:56:33]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:56:33]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:56:33]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:56:34]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:56:34]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:56:41]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:56:41]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:56:41]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:56:41]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:56:41]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:56:41]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:56:42]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:56:42]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:56:42]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:56:57]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:56:57]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:56:57]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:56:57]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:56:57]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:56:57]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:57:30]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:57:30]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:57:30]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:57:30]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:57:30]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:57:30]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:57:47]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:57:47]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:57:48]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:57:48]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:57:49]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:57:49]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:57:49]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:57:49]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:57:49]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:57:49]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:57:49]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:57:49]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:57:50]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:57:50]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:58:05]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:58:05]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:58:05]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:58:05]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:58:05]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:58:05]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 59
+========================================
+[2023-11-14 08:58:28]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:58:28]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-14 08:58:37]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:58:43]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:59:04]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 08:59:56]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 09:00:22]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 09:01:12]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 09:01:13]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 09:01:13]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 09:01:13]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 09:01:14]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 09:01:14]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 09:01:14]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 09:01:14]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 09:02:09]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 09:02:09]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-14 09:02:09]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-14 09:02:09]  Текст ошибки: Constant 0 already defined | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 58
+========================================
+[2023-11-14 09:02:16]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 09:02:16]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-14 09:02:16]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-14 09:02:16]  Текст ошибки: Constant 0 already defined | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 58
+========================================
+[2023-11-14 09:02:31]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 09:02:31]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-14 09:02:31]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-14 09:02:31]  Текст ошибки: Constant 0 already defined | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 58
+========================================
+[2023-11-14 09:02:40]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 09:02:40]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-14 09:02:40]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-14 09:02:40]  Текст ошибки: Constant 0 already defined | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 58
+========================================
+[2023-11-14 09:02:40]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 09:02:40]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-14 09:02:40]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-14 09:02:40]  Текст ошибки: Constant 0 already defined | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 58
+========================================
+[2023-11-14 09:02:41]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 09:02:41]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-14 09:02:41]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-14 09:02:41]  Текст ошибки: Constant 0 already defined | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 58
+========================================
+[2023-11-14 09:02:41]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 09:02:41]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-14 09:02:41]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-14 09:02:41]  Текст ошибки: Constant 0 already defined | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 58
+========================================
+[2023-11-14 09:02:41]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 09:02:41]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-14 09:02:41]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-14 09:02:41]  Текст ошибки: Constant 0 already defined | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 58
+========================================
+[2023-11-14 09:02:41]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 09:02:41]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-14 09:02:41]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-14 09:02:41]  Текст ошибки: Constant 0 already defined | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 58
+========================================
+[2023-11-14 09:02:58]  Текст ошибки: Контроллер <b>app\controllers\AdminController</b> не найден | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 84
+========================================
+[2023-11-14 09:02:58]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-14 09:02:58]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-14 09:03:06]  Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.category' doesn't exist | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:03:12]  Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.category' doesn't exist | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:34:30]  Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.category' doesn't exist | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:38:31]  Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.languages' doesn't exist | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:38:32]  Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.languages' doesn't exist | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:39:29]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'code' in 'field list' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:41:19]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'field list' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:41:20]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'field list' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:41:21]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'field list' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:41:21]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'field list' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:41:22]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'field list' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:41:22]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'title' in 'field list' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:41:46]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'base' in 'field list' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:41:47]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'base' in 'field list' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:42:01]  Текст ошибки: Undefined index:  | Файл: D:\OSPanel\domains\helix\vendor\fw\widgets\language\Language.php | Строка: 36
+========================================
+[2023-11-14 09:42:01]  Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.workers' doesn't exist | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:42:39]  Текст ошибки: Undefined index:  | Файл: D:\OSPanel\domains\helix\vendor\fw\widgets\language\Language.php | Строка: 36
+========================================
+[2023-11-14 09:42:39]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lang_code' in 'where clause' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:42:58]  Текст ошибки: Undefined index:  | Файл: D:\OSPanel\domains\helix\vendor\fw\widgets\language\Language.php | Строка: 36
+========================================
+[2023-11-14 09:42:58]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lang_code' in 'where clause' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:42:59]  Текст ошибки: Undefined index:  | Файл: D:\OSPanel\domains\helix\vendor\fw\widgets\language\Language.php | Строка: 36
+========================================
+[2023-11-14 09:42:59]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lang_code' in 'where clause' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:42:59]  Текст ошибки: Undefined index:  | Файл: D:\OSPanel\domains\helix\vendor\fw\widgets\language\Language.php | Строка: 36
+========================================
+[2023-11-14 09:42:59]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lang_code' in 'where clause' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:43:00]  Текст ошибки: Undefined index:  | Файл: D:\OSPanel\domains\helix\vendor\fw\widgets\language\Language.php | Строка: 36
+========================================
+[2023-11-14 09:43:00]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lang_code' in 'where clause' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:43:00]  Текст ошибки: Undefined index:  | Файл: D:\OSPanel\domains\helix\vendor\fw\widgets\language\Language.php | Строка: 36
+========================================
+[2023-11-14 09:43:00]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lang_code' in 'where clause' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:43:03]  Текст ошибки: Undefined index:  | Файл: D:\OSPanel\domains\helix\vendor\fw\widgets\language\Language.php | Строка: 36
+========================================
+[2023-11-14 09:43:03]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lang_code' in 'where clause' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:43:03]  Текст ошибки: Undefined index:  | Файл: D:\OSPanel\domains\helix\vendor\fw\widgets\language\Language.php | Строка: 36
+========================================
+[2023-11-14 09:43:03]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lang_code' in 'where clause' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:43:04]  Текст ошибки: Undefined index:  | Файл: D:\OSPanel\domains\helix\vendor\fw\widgets\language\Language.php | Строка: 36
+========================================
+[2023-11-14 09:43:04]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lang_code' in 'where clause' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:43:04]  Текст ошибки: Undefined index:  | Файл: D:\OSPanel\domains\helix\vendor\fw\widgets\language\Language.php | Строка: 36
+========================================
+[2023-11-14 09:43:04]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lang_code' in 'where clause' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:43:04]  Текст ошибки: Undefined index:  | Файл: D:\OSPanel\domains\helix\vendor\fw\widgets\language\Language.php | Строка: 36
+========================================
+[2023-11-14 09:43:04]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lang_code' in 'where clause' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:43:04]  Текст ошибки: Undefined index:  | Файл: D:\OSPanel\domains\helix\vendor\fw\widgets\language\Language.php | Строка: 36
+========================================
+[2023-11-14 09:43:04]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lang_code' in 'where clause' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:43:05]  Текст ошибки: Undefined index:  | Файл: D:\OSPanel\domains\helix\vendor\fw\widgets\language\Language.php | Строка: 36
+========================================
+[2023-11-14 09:43:05]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lang_code' in 'where clause' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:47:32]  Текст ошибки: Undefined index:  | Файл: D:\OSPanel\domains\helix\vendor\fw\widgets\language\Language.php | Строка: 36
+========================================
+[2023-11-14 09:47:32]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lang_code' in 'where clause' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:52:02]  Текст ошибки: Undefined index:  | Файл: D:\OSPanel\domains\helix\vendor\fw\widgets\language\Language.php | Строка: 36
+========================================
+[2023-11-14 09:52:02]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lang_code' in 'where clause' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:52:02]  Текст ошибки: Undefined index:  | Файл: D:\OSPanel\domains\helix\vendor\fw\widgets\language\Language.php | Строка: 36
+========================================
+[2023-11-14 09:52:02]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lang_code' in 'where clause' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:52:03]  Текст ошибки: Undefined index:  | Файл: D:\OSPanel\domains\helix\vendor\fw\widgets\language\Language.php | Строка: 36
+========================================
+[2023-11-14 09:52:03]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lang_code' in 'where clause' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-14 09:52:03]  Текст ошибки: Undefined index:  | Файл: D:\OSPanel\domains\helix\vendor\fw\widgets\language\Language.php | Строка: 36
+========================================
+[2023-11-14 09:52:03]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lang_code' in 'where clause' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-15 09:50:35]  Текст ошибки: Undefined index:  | Файл: D:\OSPanel\domains\helix\vendor\fw\widgets\language\Language.php | Строка: 36
+========================================
+[2023-11-15 09:50:35]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lang_code' in 'where clause' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-15 09:50:35]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 09:50:35]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:50:35]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:52:03]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lang_code' in 'where clause' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-15 09:52:03]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 09:52:03]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:52:03]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:52:04]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lang_code' in 'where clause' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-15 09:52:04]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 09:52:04]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:52:04]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:52:04]  Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'lang_code' in 'where clause' | Файл: D:\OSPanel\domains\helix\vendor\fw\libs\rb.php | Строка: 838
+========================================
+[2023-11-15 09:52:04]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 09:52:04]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:52:04]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:53:26]  Текст ошибки: Undefined variable: workers | Файл: D:\OSPanel\domains\helix\app\views\layouts\proga.php | Строка: 82
+========================================
+[2023-11-15 09:53:26]  Текст ошибки: Invalid argument supplied for foreach() | Файл: D:\OSPanel\domains\helix\app\views\layouts\proga.php | Строка: 82
+========================================
+[2023-11-15 09:54:12]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 09:54:12]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:54:12]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:54:13]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 09:54:13]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:54:13]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:54:13]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 09:54:13]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:54:13]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:54:42]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 09:54:42]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:54:42]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:54:54]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 09:54:54]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:54:54]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:54:54]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 09:54:54]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:54:54]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:54:55]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 09:54:55]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:54:55]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:55:01]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 09:55:01]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:55:01]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:55:01]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 09:55:01]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:55:01]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:55:45]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 09:55:45]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:55:45]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:55:45]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 09:55:45]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:55:45]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:55:46]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 09:55:46]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:55:46]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:55:46]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 09:55:46]  Текст ошибки: require(D:\OSPanel\domains\helix\public/errors/404.html): failed to open stream: No such file or directory | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:55:46]  Текст ошибки: require(): Failed opening required 'D:\OSPanel\domains\helix\public/errors/404.html' (include_path='.') | Файл: D:\OSPanel\domains\helix\vendor\fw\core\ErrorHandler.php | Строка: 60
+========================================
+[2023-11-15 09:56:48]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 09:56:48]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 09:57:28]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 09:57:28]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 09:57:30]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 09:57:53]  Текст ошибки: Метода<b>indexAction</b> у контроллера<b>app\controllers\UserController</b> нет | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 81
+========================================
+[2023-11-15 10:01:48]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 10:01:48]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 10:01:48]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 10:01:48]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 10:01:48]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 10:01:48]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 10:01:48]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 10:01:48]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-15 10:01:48]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:16]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:16]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:16]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:16]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:24]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:42]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:42]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:42]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:42]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:43]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:43]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:43]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:43]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:56]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:56]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:56]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:56]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:56]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:56]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:56]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:56]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:57]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:57]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:57]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:57]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:57]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:57]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:57]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================
+[2023-11-25 11:36:57]  Текст ошибки: Страница не найдена | Файл: D:\OSPanel\domains\helix\vendor\fw\core\Router.php | Строка: 89
+========================================

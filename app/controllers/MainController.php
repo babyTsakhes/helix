@@ -21,7 +21,7 @@ class MainController extends AppController
     public function indexAction()
     {
         //unset($_SESSION);
-        $this->layout = (!empty($_SESSION['main_temp_code'])) ? $_SESSION['main_temp_code'] :  'proga';
+        $this->layout = (!empty($_SESSION['main_temp_code'])) ? $_SESSION['main_temp_code'] :  'test';
         //debug($_SESSION,1);
         $lang = App::$app->getProperty('lang')['code'];
         $workers = \R::findAll('workers', 'lang_code = ?', [$lang]);

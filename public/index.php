@@ -10,7 +10,7 @@ define ('CACHE',dirname(__DIR__).'/tmp/cache');
 define ('ERROR',dirname(__DIR__).'/tmp/errors.log');
 define('LAYOUT','default');
 define('ADMIN','/admin');
-define("DEBUG", 0);//1 - это режим разработки
+define("DEBUG", 1);//1 - это режим разработки
 //require '../vendor/core/Router.php';
 require '../vendor/fw/libs/functions.php';
 require __DIR__ . '/../vendor/autoload.php';

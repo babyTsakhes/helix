@@ -28,7 +28,7 @@ class ErrorHandler{
        
         $error = error_get_last();
         if(!empty($error) && $error['type'] & (E_ERROR | E_PARSE | E_COMPILE_ERROR | E_CORE_ERROR)){
-        //    $this->logErrors($error['message'],$error['file'],$error['line']);
+         //   $this->logErrors($error['message'],$error['file'],$error['line']);
             error_log("[" . date("Y-m-d H:i:s"). "]  Текст ошибки: {$error['message']} | Файл: {$error['file']} | Строка: {$error['line']}\n========================================\n",3,ERROR);
             ob_end_clean();
             $this->displayError($error['type'],$error['message'],$error['file'],$error['line']);
@@ -55,12 +55,14 @@ class ErrorHandler{
 
     protected function displayError($errno,$errstr,$errfile,$errline,$response = 500){
         http_response_code($response);
+       // define(DEBUG,1);
         if($response == 404 && !DEBUG){
             require WWW . '/errors/404.html';
         }
         if(DEBUG){
             require WWW . '/errors/dev.php';
         }else{
+         //   echo DEBUG;
             require WWW . '/errors/prod.php';
         }
         die;
