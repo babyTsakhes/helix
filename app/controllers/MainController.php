@@ -21,12 +21,13 @@ class MainController extends AppController
     public function indexAction()
     {
         //unset($_SESSION);
-        $this->layout = (!empty($_SESSION['main_temp_code'])) ? $_SESSION['main_temp_code'] :  'test';
+        //debug($_SESSION);
+        $this->layout = (!empty($_SESSION['main_temp_code'])) ? $_SESSION['main_temp_code'] :  'default';
         //debug($_SESSION,1);
         $lang = App::$app->getProperty('lang')['code'];
-        $workers = \R::findAll('workers', 'lang_code = ?', [$lang]);
+     //   $workers = \R::findAll('workers', 'lang_code = ?', [$lang]);
         View::setMeta('MAIN PAGE', 'main page of framework', 'framework');
-        $this->set(compact('workers'));
+    //    $this->set(compact('workers'));
     }
 
     public function imtAction()
