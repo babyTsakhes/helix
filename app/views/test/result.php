@@ -4,15 +4,15 @@
                         <div class="card-header">
                             <h3><?=$username?>, ваш результат:</h3>
                         </div>
-                        <div class="card-body">
+                        <div class="card-body" >
                             <div class="result-print">
                                 <?php foreach($result as $r ) echo $r['result']; ?>
                             </div>
                         </div>
                         <?if($res):?>
                             <?for($i = 0; $i < 5; $i++):?>
-                            <div class="card-header">
-                            <h7><?=$titles[$i]?></h7>
+                            <div class="card-subtitle mb-2 text-muted">
+                            <h5><?=$titles[$i]?></h5>
                         </div>
                         <div class="card-body">
                             <div class="result-print">

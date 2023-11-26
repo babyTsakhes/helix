@@ -24,8 +24,33 @@ class TestController extends AppController
         //unset($_SESSION);
         if(!empty($_SESSION['user'])){
            $user_name = $_SESSION['user']['name'];
-           $tests = \R::findAll('tests');
-           $this->set(compact('user_name','tests'));
+           $userid = $_SESSION['user']['id'];
+           $userdata = \R::findOne("user", "id={$userid}");
+           $ready_test = explode(" ",$userdata->ready_test);
+           $rt1 = (isset($ready_test[0])) ? $ready_test[0] : 0;
+           $rt2 = (isset($ready_test[1])) ? $ready_test[1] : 0;
+           $rt3 = (isset($ready_test[2])) ? $ready_test[2] : 0;
+           $rt4 = (isset($ready_test[3])) ? $ready_test[3] : 0;
+           if($rt1 || $rt2 || $rt3 || $rt4){
+            $sql = "";
+            //debug($ready_test);
+            foreach($ready_test as $rt){
+                $sql.="id!={$rt} AND";
+            }
+            $sql=trim($sql,'AND');
+            //debug($sql);
+            if($sql != ""){
+                $tests = \R::findAll('tests',$sql);
+            }
+            else{
+                $tests=\R::findAll('tests');
+            }
+           }
+           else{
+            $tests=\R::findAll('tests');
+           }
+           
+           $this->set(compact('user_name','tests','ready_test'));
          
         }
         else{
@@ -37,6 +62,17 @@ class TestController extends AppController
     public function onetestAction(){
        
         if(!empty($_SESSION['user'])){
+           $userid = $_SESSION['user']['id'];
+           $userdata = \R::findOne("user", "id={$userid}");
+           $ready_test = explode(" ",$userdata->ready_test);
+           $rt1 = (isset($ready_test[0])) ? $ready_test[0] : 0;
+           $rt2 = (isset($ready_test[1])) ? $ready_test[1] : 0;
+           $rt3 = (isset($ready_test[2])) ? $ready_test[2] : 0;
+           $rt4 = (isset($ready_test[3])) ? $ready_test[3] : 0;
+           $test_id = $_GET['id'];
+           if($rt1 == $test_id || $rt2 == $test_id || $rt3 == $test_id || $rt4 == $test_id){
+            redirect("/test/notest");
+           }
             $test = \R::findOne('tests',"id={$_GET['id']}");
            // debug($_SESSION);
            $username = $_SESSION['user']['name'];
@@ -60,6 +96,10 @@ class TestController extends AppController
       
     }
    
+    public function notestAction(){
+      //  echo "ВЫ УЖЕ ПРОШЛИ ЭТОТ ТЕСТ!";
+        
+    }
 
     public function result3Test($arr, $userid){
         $sum1 = 0;
@@ -112,8 +152,9 @@ class TestController extends AppController
                 foreach($_POST as $q){
                     $sum+=$q;
                 }
-             
-                \R::exec( "UPDATE user SET result$testid='$sum' WHERE id = '$userid'");
+                $userdata = \R::findOne("user", "id={$userid}");
+                $ready_test = $userdata->ready_test." ".$testid;
+                \R::exec( "UPDATE user SET result$testid='$sum',ready_test='$ready_test' WHERE id = '$userid'");
 
                 if($testid == "3"){
                     $res = $this->result3Test($_POST, $userid);
