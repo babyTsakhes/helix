@@ -12,7 +12,7 @@ body {
 
 body::after {
   content: "";
-  background: url('https://ae01.alicdn.com/kf/HTB1I_FvOXXXXXXCaFXXq6xXFXXX7/Fuga-de-Rick-e-Morty-Hot-Anima-o-Dos-Desenhos-Animados-Poster-Retro-Do-Vintage-Da.jpg') no-repeat center center fixed;  
+  background: url('https://images.unsplash.com/photo-1700902741852-ecf2bd2c26eb?q=80&w=2062&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -225,14 +225,6 @@ svg#swipe .st0 {
   fill: #4e8025;
 }
 
-svg#picklerick {
-  width: 300px;
-  position: absolute;
-  bottom: -400px;
-  right: 13%;
-  -webkit-animation: popup 1s 5s forwards;
-  animation: popup 1s 5s forwards;
-}
 
 svg#picklerick .st0 {
   fill: #fefefe;
@@ -254,50 +246,7 @@ svg#picklerick .st4 {
   fill: #e5f8d3;
 }
 
-@-webkit-keyframes swipecut {
-  0% {
-  }
 
-  100% {
-    transform: translateX(calc(100vw + 300px));
-  }
-}
-
-@-webkit-keyframes loboff1 {
-  0% {
-  }
-
-  100% {
-    transform: translate(0px, 3px) rotate(27deg);
-  }
-}
-
-@-webkit-keyframes loboff2 {
-  0% {
-  }
-
-  100% {
-    transform: translate(10px, -27px) rotate(27deg);
-  }
-}
-
-@-webkit-keyframes loboff3 {
-  0% {
-  }
-
-  100% {
-    transform: translate(20px, -50px) rotate(28deg);
-  }
-}
-
-@-webkit-keyframes popup {
-  0% {
-  }
-
-  100% {
-    transform: translateY(-200px);
-  }
-}
 
 @media only screen and (max-height: 420px) {
     .svgcontainer svg#fourohfour {
@@ -332,7 +281,7 @@ svg#picklerick .st4 {
 <div class="svgcontainer">
     <div class="subcont">
         <div class="topconvo">
-            <span>!@#$</span><br /> Жаль, но ...ВЫ УЖЕ ПРОШЛИ ЭТОТ ТЕСТ! <p><span>Возвращайтесь на главную страницу и решайте тесты дальше.</span></p>
+            <span>!@#$</span><br /> Жаль, но ...ВЫ УЖЕ ПРОШЛИ ЭТОТ ТЕСТ! Возвращайтесь на главную страницу и решайте тесты дальше
         </div>
         <svg version="1.1" id="fourohfour" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
             y="0px" viewBox="0 0 265.5 114" style="enable-background:new 0 0 265.5 114;" xml:space="preserve">
