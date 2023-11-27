@@ -7,7 +7,9 @@ use fw\core\base\View;
 class UserController extends AppController{
 
     public function signupAction(){
-        
+        if(!empty($_SESSION['user'])){
+            redirect("");
+        }
         if(!empty($_POST)){
             $user = new User;
             $data = $_POST;
@@ -31,6 +33,9 @@ class UserController extends AppController{
     }
 
     public function loginAction(){
+        if(!empty($_SESSION['user'])){
+            redirect("");
+        }
         if(!empty($_POST)){
             $user = new User();
             if($user->login()){
@@ -43,7 +48,7 @@ class UserController extends AppController{
         View::setMeta("Вход");
     }
 
-    public function logoutAction(){
+    public function logout(){
         if(isset($_SESSION['user'])) unset($_SESSION['user']);
         redirect('/user/login');
     }
