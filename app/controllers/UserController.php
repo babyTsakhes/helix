@@ -34,7 +34,7 @@ class UserController extends AppController{
 
     public function loginAction(){
         if(!empty($_SESSION['user'])){
-            redirect("");
+            redirect("/test");
         }
         if(!empty($_POST)){
             $user = new User();
