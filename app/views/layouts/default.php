@@ -17,7 +17,7 @@ use fw\core\base\View;
   </head>
   <body>
     <ul>
-      <li><a href="/admin"><?__('Admin')?></a></li>
+     
       <li><a href="/user/signup"><?__('Signup')?></a></li>
       <li><a href="/user/login"><?__('Login')?></a></li>
       <li><a href="/user/logout"><?__('Logout')?></a></li>

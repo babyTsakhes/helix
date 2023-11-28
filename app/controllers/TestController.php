@@ -34,14 +34,13 @@ class TestController extends AppController
            if($rt1 || $rt2 || $rt3 || $rt4){
             $sql = "";
            // debug($ready_test);
-            foreach($ready_test as $rt){
-                if($rt != "" && $rt != " "){
-                    $sql.="id!={$rt} AND";
-                }
-              
+           foreach($ready_test as $rt){
+            if($rt != "" && $rt != " "){
+                $sql.="id!={$rt} AND ";
             }
-            $sql=trim($sql,'AND');
-            //debug($sql);
+          
+        }
+            $sql=trim($sql,'AND ');
             if($sql != ""){
                 $tests = \R::findAll('tests',$sql);
             }
@@ -140,6 +139,34 @@ class TestController extends AppController
         return $res;
        
     }
+
+
+    public function result4Test($arr, $userid){
+        $sum1 = 0;
+        $sum2 = 0;
+        $sum3 = 0;
+        $res=[];
+        for($i = 93; $i <= 119; $i++){
+           // 1, 2, 3, 4, 6, 7, 9, 10, 11, 12, 19, 20, 22
+            if($i == 93 || $i == 94 || $i == 95 || $i == 96 || $i == 99 || $i == 102 || $i ==103 || $i == 104 || $i == 112 || $i == 114 ){
+                $sum1 += $arr[$i];
+                \R::exec( "UPDATE user SET result4_1='$sum1' WHERE id = '$userid'");
+            }
+            // 5, 14, 15, 16, 21, 23, 24, 26, 27
+            else if($i == 97 || $i == 106 || $i == 107 || $i == 108 || $i == 113 || $i == 115 || $i == 116 || $i == 118 || $i == 119){
+                $sum2 += $arr[$i];
+                \R::exec( "UPDATE user SET result4_2='$sum2' WHERE id = '$userid'");
+            }
+            // 8, 13, 17, 18, 25
+            else if($i == 100 || $i == 105 || $i == 109 || $i == 110 || $i == 117 ){
+                $sum3 += $arr[$i];//5, 6, 13, 14, 16, 22
+                \R::exec( "UPDATE user SET result4_3='$sum3' WHERE id = '$userid'");
+            }
+        }
+        $res = [$sum1,$sum2,$sum3];
+        return $res;
+       
+    }
     public function resultAction()
     {
        // debug("djfjkds",1);
@@ -163,6 +190,11 @@ class TestController extends AppController
                     $res = $this->result3Test($_POST, $userid);
                     $titles = ['Эмоциональная осведомленность','Управление своими эмоциями','Самомотивация','Эмпатия','Распознавание эмоций других людей'];
                 }
+                else if($testid == "4"){
+                    $res = $this->result4Test($_POST, $userid);
+                    $titles = ['Шкала цинизма','Шкала агрессивности','Шкала враждебности'];
+                    
+                }
                }
 
             
@@ -175,7 +207,8 @@ class TestController extends AppController
             'result',
             'username',
             'res',
-            'titles'
+            'titles',
+            'testid'
         ));
     }
 }
