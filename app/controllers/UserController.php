@@ -9,12 +9,17 @@ class UserController extends AppController{
     public function signupAction(){
         if(!empty($_SESSION['user'])){
             redirect("");
+          //  debug(133,1);
         }
         if(!empty($_POST)){
+           
             $user = new User;
             $data = $_POST;
+           
             $user->load($data);
+           
             if(!$user->validate($data) || !$user->checkUnique()){
+                
                 $user->getErrors();
                 $_SESSION['formData'] = $data;
                 redirect();

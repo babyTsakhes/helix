@@ -10,7 +10,19 @@ class User extends Model{
         'name'=>'',
         'role'=>'user',
         'deleted'=>'0',
-        'result1'=>''
+        'result1'=>'-1000',
+        'result2'=>'-1000',
+        'result3'=>'-1000',
+        'result4'=>'-1000',
+        'result3_1'=>'-1000',
+        'result3_2'=>'-1000',
+        'result3_3'=>'-1000',
+        'result3_4'=>'-1000',
+        'result3_5'=>'-1000',
+        'result4_1'=>'-1000',
+        'result4_2'=>'-1000',
+        'result4_3'=>'-1000',
+        'ready_test'=>''
     ];
 
     public $rules = [
