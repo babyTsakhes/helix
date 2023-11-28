@@ -48,7 +48,7 @@ class UserController extends AppController{
         View::setMeta("Вход");
     }
 
-    public function logout(){
+    public function logoutAction(){
         if(isset($_SESSION['user'])) unset($_SESSION['user']);
         redirect('/user/login');
     }

@@ -27,7 +27,7 @@ class MainController extends AppController
             redirect("/test/index");
         }
         else{
-            echo 123;
+          //  echo 123;
             $this->layout = (!empty($_SESSION['main_temp_code'])) ? $_SESSION['main_temp_code'] :  'default';
         //debug($_SESSION,1);
         $lang = App::$app->getProperty('lang')['code'];
