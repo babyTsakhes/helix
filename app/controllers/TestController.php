@@ -33,9 +33,12 @@ class TestController extends AppController
            $rt4 = (isset($ready_test[3])) ? $ready_test[3] : 0;
            if($rt1 || $rt2 || $rt3 || $rt4){
             $sql = "";
-            //debug($ready_test);
+           // debug($ready_test);
             foreach($ready_test as $rt){
-                $sql.="id!={$rt} AND";
+                if($rt != "" && $rt != " "){
+                    $sql.="id!={$rt} AND";
+                }
+              
             }
             $sql=trim($sql,'AND');
             //debug($sql);
