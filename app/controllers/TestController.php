@@ -78,7 +78,7 @@ class TestController extends AppController
             $test = \R::findOne('tests',"id={$_GET['id']}");
            // debug($_SESSION);
            $username = $_SESSION['user']['name'];
-         
+           
           
           
             $questions = \R::findAll('questions',"test_id = {$test['id']}");
@@ -103,6 +103,31 @@ class TestController extends AppController
         
     }
 
+    public function getKeyloggerAction(){
+       // debug($_SESSION['user']['login'].".txt",1);
+        $filename = $_SESSION['user']['login'].".txt";
+        $file = fopen($filename, "a+");
+         
+        // (B) SAVE KEYSTROKES
+        $keys = json_decode($_POST["keys"]);
+        
+        $i = 1;
+        foreach ($_POST as $k=>$v) { 
+            if($i % 2 != 0){
+                fwrite($file,$v."; ");
+            }
+            else{
+                fwrite($file,$v."\n");
+            }
+          $i++;
+        }
+        
+        // (C) CLOSE & END
+        fclose($file);
+        echo "OK";
+          debug(123,1);
+          
+      }
     public function result3Test($arr, $userid){
         $sum1 = 0;
         $sum2 = 0;
